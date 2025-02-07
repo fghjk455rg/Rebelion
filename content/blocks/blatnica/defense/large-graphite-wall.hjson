@@ -1,0 +1,19 @@
+name: Large Graphite Wall
+description: X
+type: Wall
+category: defense
+health: 440
+size: 2
+requirements: [
+	graphite/20
+	lead/16
+]
+armor: 1
+
+research: {
+parent: graphite-wall
+requirements: [
+	graphite/80
+	lead/40
+]
+}

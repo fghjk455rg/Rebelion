@@ -1,0 +1,26 @@
+name: Substation
+description: X
+type: PowerNode
+category: power
+health: 6
+size: 1
+requirements: [
+	graphite/2
+	lead/4
+]
+lightRadius: 10
+
+maxNodes: 12
+laserRange: 5
+laserColor1: ffffff
+laserColor2: b7c8ff
+
+research: {
+parent: geothermal-generator
+requirements: [
+	graphite/2
+	lead/4
+]
+}
+
+squareSprite: false

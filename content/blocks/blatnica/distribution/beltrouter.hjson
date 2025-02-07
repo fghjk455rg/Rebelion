@@ -1,0 +1,22 @@
+name: Belt Router
+description: X
+type: Router
+category: distribution
+health: 10
+size: 1
+requirements: [
+	graphite/2
+	lead/4
+]
+
+speed: 0.03
+displayedSpeed: 4.2
+buildCostMultiplier: 2
+
+research: {
+parent: beltx
+requirements: [
+	graphite/2
+	lead/4
+]
+}

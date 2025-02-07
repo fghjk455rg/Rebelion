@@ -1,0 +1,81 @@
+name: Reaction Chamber
+description: X
+type: GenericCrafter
+category: crafting
+health: 40
+size: 2
+requirements: [
+	graphite/20
+	lead/10
+]
+
+craftTime: 120
+consumes: {
+	power: 1
+	liquids: [
+		nitrogen/0.4
+	]
+	items: [
+		lead/2
+	]
+}
+outputItem: niterium/2
+ignoreLiquidFullness: true
+hasLiquids: true
+craftEffect: {
+	length: 10
+	lifetime: 40
+	particles: 8
+	region: ring-item
+	offset: 45
+	sizeFrom: 4
+	sizeTo: 0
+	colorFrom: ffffff
+	colorTo: ca8cd1
+}
+
+research: {
+parent: atmosphere-condensator
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
+requirements: [
+	graphite/20
+	lead/10
+]
+}
+
+squareSprite: false
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: nitrogen
+	suffix: -liquid
+}
+{
+	type: drawParticles
+	color: d4f0ff
+	alpha: 0.6
+	particleSize: 1
+	particles: 30
+	particleRad: 6
+	particleLife: 60
+}
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.5
+	glowScale: 5
+	color: ffaa6655
+}
+]

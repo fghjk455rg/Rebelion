@@ -1,0 +1,15 @@
+type: liquid
+name: Acid
+cache: water
+color: 	cfce66
+flammability: 0
+temperature: 0.5
+viscosity: 0.6
+explosiveness: 0
+coolant: false
+blockReactive: true
+effect: corroded
+research: {
+parent: lead
+planet: ens-mod-blatnica
+}

@@ -1,0 +1,131 @@
+name: Gauss
+description: X
+type: ItemTurret
+category: turret
+health: 80
+size: 2
+requirements: [
+	graphite/22
+	lead/12
+	selium/6
+]
+outlineColor: 1b1b1e
+
+shootCone: 10
+moveWhileCharging: false
+ammoTypes: {
+	lead: {
+	type: basicBulletType
+	with: 10
+	height: 16
+	lifetime: 20
+	speed: 6
+	damage: 8
+	hitSound: bullethit
+	splashDamage: 2
+	splashDamageRadius: 1
+	shootEffect: shootBigColor
+	smokeEffect: shootBigSmoke
+	hitColor: b7b7d8
+	backColor: 82779b
+	trailColor: b7b7d8
+	trailWidth: 2.1
+	trailLength: 8
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+	hitEffect: {
+			type: ParticleEffect
+			line: true
+			particles: 6
+			lifetime: 45
+			interp: circleOut
+			length: 40
+			cone: -40
+			strokeTo: 0
+			lightColor: b7b7d8
+			lenFrom: 6
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: ffffff
+			colorTo: b7b7d8
+	}
+	}
+	titanium: {
+	type: basicBulletType
+	with: 8
+	height: 18
+	lifetime: 20
+	speed: 8
+	damage: 20
+	hitSound: bullethit
+	rangeChange: 60
+	pierce: true
+	pierceCap: 1
+	shootEffect: shootBigColor
+	smokeEffect: shootSmokeSquareSparse
+	hitColor: b7c8ff
+	backColor: 9090e0
+	trailColor: b7c8ff
+	trailWidth: 2.1
+	trailLength: 8
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+	despawnEffect: {
+			type: ParticleEffect
+			line: true
+			particles: 6
+			lifetime: 45
+			interp: circleOut
+			length: 40
+			cone: -40
+			strokeTo: 0
+			lightColor: b7c8ff
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: ffffff
+			colorTo: b7c8ff
+	}
+	hitEffect: {
+			type: ParticleEffect
+			line: true
+			particles: 6
+			lifetime: 45
+			interp: circleOut
+			length: 40
+			cone: -40
+			strokeTo: 0
+			lightColor: b7c8ff
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: ffffff
+			colorTo: b7c8ff
+	}
+	reloadMultiplier: 0.6
+	}
+}
+reload: 40
+recoil: 1
+targetAir: true
+shootSound: pluhh
+recoilTime: 40
+rotateSpeed: 10
+coolantMultiplier: 2
+range: 120
+consumes: {
+	power: 0.6
+}
+drawer: {
+	type: drawTurret
+	basePrefix: gauss-
+}
+
+research: {
+parent: core-colony
+requirements: [
+	graphite/22
+	lead/12
+	selium/6
+]
+}

@@ -1,0 +1,21 @@
+name: Belt Crossroad
+description: X
+type: Junction
+category: distribution
+health: 10
+size: 1
+requirements: [
+	graphite/2
+	lead/2
+]
+
+speed: 26
+capacity: 6
+
+research: {
+parent: belt
+requirements: [
+	graphite/2
+	lead/2
+]
+}

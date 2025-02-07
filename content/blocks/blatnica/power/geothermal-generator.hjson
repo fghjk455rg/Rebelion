@@ -1,0 +1,41 @@
+name: Geothermal Generator
+description: X
+type: ThermalGenerator
+category: power
+health: 40
+size: 2
+requirements: [
+	graphite/16
+	lead/20
+]
+lightRadius: 10
+
+
+powerProduction: 1
+generateEffect: redgeneratespark
+effectChance: 0.020
+ambientSound: hum
+ambientSoundVolume: 0.06
+
+research: {
+parent: core-colony
+requirements: [
+	graphite/16
+	lead/20
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 1
+	glowScale: 5
+	color: ffaa6655
+}
+]

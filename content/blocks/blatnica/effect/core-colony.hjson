@@ -1,0 +1,28 @@
+name: Core: "Colony"
+description: X
+type: CoreBlock
+category: effect
+health: 240
+size: 3
+requirements: [
+	graphite/200
+	lead/160
+	selium/80
+]
+lightRadius: 60
+fogRadius: 11
+
+isFirstTier: true
+unitType: colonist
+itemCapacity: 800
+unitCapModifier: 6
+
+research: {
+	root: true
+	name: Blatnica
+	requiresUnlock: false
+	planet: blatnica
+}
+alwaysUnlocked: true
+
+squareSprite: false

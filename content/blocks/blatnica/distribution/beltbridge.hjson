@@ -1,0 +1,21 @@
+name: Belt Bridge
+description: X
+type: BufferedItemBridge
+category: distribution
+health: 16
+size: 1
+requirements: [
+	graphite/6
+	lead/6
+]
+
+range: 4
+hasPower: false
+
+research: {
+parent: beltx
+requirements: [
+	graphite/6
+	lead/6
+]
+}

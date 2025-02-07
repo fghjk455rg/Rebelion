@@ -1,0 +1,66 @@
+name: Selium Sinthesizer
+description: X
+type: GenericCrafter
+category: crafting
+health: 40
+size: 2
+requirements: [
+	graphite/18
+	lead/16
+]
+
+craftTime: 240
+consumes: {
+	power: 0.6
+	liquids: [
+		acid/0.2
+	]
+	items: [
+		lead/1
+	]
+}
+outputItem: selium/1
+outputLiquid: water/0.05
+ignoreLiquidFullness: true
+hasLiquids: true
+
+research: {
+parent: atmosphere-condensator
+requirements: [
+	graphite/18
+	lead/16
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: acid
+	suffix: -liquid
+}
+{
+	type: drawBubbles
+	color: dedd77
+	sides: 10
+	recurrence: 3 
+	spread: 6
+	radius: 1.5
+	amount: 20
+}
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.3
+	glowScale: 5
+	color: fffae830
+}
+]

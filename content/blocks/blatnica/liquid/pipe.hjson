@@ -1,0 +1,21 @@
+name: Pipe
+description: X
+type: ArmoredConduit
+category: liquid
+health: 6
+size: 1
+requirements: [
+	niterium/1
+]
+
+junctionReplacement: ens-mod-pipex
+bridgeReplacement: ens-mod-pipebridge
+leaks: true
+botColor: 222324
+
+research: {
+parent: reaction-chamber
+requirements: [
+	niterium/1
+]
+}

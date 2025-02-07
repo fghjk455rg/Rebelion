@@ -1,0 +1,58 @@
+name: Grave
+description: X
+type: mech
+health: 240
+speed: 0.6
+drag: 0.2
+accel: 0.1
+rotateSpeed: 3
+hitSize: 12
+omniMovement: true
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+
+weapons: [
+{
+name: grave-weapon
+mirror: true
+x: 6
+y: 1.5
+rotate: false
+reload: 10
+shootSound: twins_shot
+ejectEffect: casing2
+layerOffset: -0.002
+targetAir: false
+recoil: 4
+bullet: {
+	width: 12
+	height: 12
+	trailColor: b7c8ff
+	trailLength: 6
+	trailWidth: 2
+	type: basicBulletType
+	damage: 8
+	speed: 4
+	lifetime: 20
+	frontColor: b7c8ff
+	backColor: b7c8ff
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 6
+			lifetime: 30
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 10
+			lightColor: 95abd9
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: b7c8ff
+			colorTo: b7c8ff
+			sizeFrom: 1
+			sizeTo: 0
+	}
+}
+}
+]

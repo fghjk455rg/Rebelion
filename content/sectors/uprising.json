@@ -1,0 +1,9 @@
+sector: 41
+planet: ens-mod-blatnica
+localizedName: Uprising
+difficulty: 1
+captureWave: 6
+research:{
+parent: core-colony
+}
+alwaysUnlocked: true

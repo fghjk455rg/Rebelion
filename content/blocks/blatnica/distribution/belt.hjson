@@ -1,0 +1,22 @@
+name: Belt
+description: X
+type: Conveyor
+category: distribution
+health: 6
+size: 1
+requirements: [
+	lead/1
+]
+
+speed: 0.03
+displayedSpeed: 4.2
+buildCostMultiplier: 2
+junctionReplacement: ens-mod-beltx
+bridgeReplacement: ens-mod-beltbridge
+
+research: {
+parent: screwdriver
+requirements: [
+	lead/1
+]
+}

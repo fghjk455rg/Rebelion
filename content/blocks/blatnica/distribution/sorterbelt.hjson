@@ -1,0 +1,20 @@
+name: Sorter Belt
+description: X
+type: Sorter
+category: distribution
+health: 14
+size: 1
+requirements: [
+	graphite/3
+	lead/2
+	selium/1
+]
+
+research: {
+parent: beltrouter
+requirements: [
+	graphite/3
+	lead/2
+	selium/1
+]
+}

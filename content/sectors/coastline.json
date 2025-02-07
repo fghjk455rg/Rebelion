@@ -1,0 +1,17 @@
+sector: 23
+planet: ens-mod-blatnica
+localizedName: Coastline
+difficulty: 1
+captureWave: 20
+research:{
+parent: uprising
+objectives: [
+{
+	type: sectorComplete
+	preset: uprising
+}
+selium
+beltrouter
+]
+}
+alwaysUnlocked: true

@@ -1,0 +1,5 @@
+type: OreBlock
+oreDefault: false	
+oreScale: 55.0
+oreThreshold: 0.1
+itemDrop: graphite

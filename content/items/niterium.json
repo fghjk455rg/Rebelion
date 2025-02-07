@@ -1,0 +1,8 @@
+name: Niterium
+type: item
+cost: 1.0
+color: edb6e2
+research: {
+parent: nitrogen
+planet: ens-mod-blatnica
+}

@@ -1,0 +1,8 @@
+name: Selium
+type: item
+cost: 2.0
+color: dbc652
+research: {
+parent: acid
+planet: ens-mod-blatnica
+}

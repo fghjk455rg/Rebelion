@@ -1,0 +1,19 @@
+name: Graphite Wall
+description: X
+type: Wall
+category: defense
+health: 100
+size: 1
+requirements: [
+	graphite/6
+	lead/2
+]
+armor: 1
+
+research: {
+parent: gauss
+requirements: [
+	graphite/6
+	lead/2
+]
+}

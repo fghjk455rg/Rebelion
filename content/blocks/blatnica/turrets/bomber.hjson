@@ -1,0 +1,156 @@
+name: Bomber
+description: X
+type: ItemTurret
+category: turret
+health: 60
+size: 2
+requirements: [
+	graphite/30
+	selium/16
+	niterium/14
+]
+outlineColor: 1b1b1e
+
+shootCone: 10
+moveWhileCharging: false
+ammoTypes: {
+	graphite: {
+	type: artilleryBulletType
+	with: 16
+	height: 16
+	lifetime: 300
+	speed: 2
+	damage: 14
+	hitSound: explosion
+	splashDamage: 14
+	splashDamageRadius: 32
+	shootEffect: shootBigColor
+	smokeEffect: shootBigSmoke
+	hitColor: 95abd9
+	backColor: 7380ac
+	trailColor: 7380ac
+	trailWidth: 2
+	trailLength: 12
+	knockback: 4
+	despawnShake: 7
+	buildingDamageMultiplier: 2
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 12
+			lifetime: 40
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 20
+			lightColor: 95abd9
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: 95abd9
+			colorTo: 7380ac
+			sizeFrom: 2
+			sizeTo: 0
+	}
+	shootStatus: slow
+	}
+	niterium: {
+	type: artilleryBulletType
+	with: 16
+	height: 16
+	lifetime: 240
+	speed: 4
+	damage: 6
+	hitSound: explosion
+	pierce: true
+	pierceCap: 1
+	shootEffect: shootTitan
+	smokeEffect: shootSmokeSquareSparse
+	hitColor: ffd6f3
+	backColor: edb6e2
+	trailColor: edb6e2
+	trailWidth: 2
+	trailLength: 12
+	despawnShake: 7
+        fragBullets: 6
+	fragBullet: {
+		type: BasicBulletType
+		width: 6
+		height: 6
+		speed: 0.4
+		lifetime: 40
+		damage: 4
+		splashDamage: 6
+		splashDamageRadius: 8
+		despawnEffect: hitBulletColor
+		hitColor: ffd6f3
+		backColor: edb6e2
+		trailColor: edb6e2
+		trailWidth: 0.6
+		trailLength: 6
+		pierce: true
+		pierceCap: 1
+	}
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 20
+			lifetime: 40
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 20
+			lightColor: ffd6f3
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: ffd6f3
+			colorTo: edb6e2
+			sizeFrom: 1
+			sizeTo: 0
+	}
+	}
+}
+reload: 140
+recoil: 1
+targetAir: false
+shootSound: artillery
+recoilTime: 40
+rotateSpeed: 4
+coolantMultiplier: 2
+shake: 2
+range: 140
+consumes: {
+	power: 0.2
+	liquids: [
+		nitrogen/0.2
+	]
+}
+shootY: 7
+ammoPerShot: 2
+maxAmmo: 8
+drawer: {
+	type: drawTurret
+	basePrefix: bomber-
+	parts: [
+	{
+		type: regionPart
+		suffix: -barrel
+		progress: recoil
+		moveY: -3
+		heatColor: f03b0e
+		mirror: false
+	}
+	]
+}
+
+research: {
+parent: gauss
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
+requirements: [
+	graphite/30
+	selium/16
+	niterium/14
+]
+}

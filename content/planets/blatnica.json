@@ -1,0 +1,84 @@
+    generator: slanetGenerator
+    parent: sun 
+    accesible: true
+    hasAtmosphere: true
+    iconColor: edf3a9
+allowWavesSimulation: false
+allowSectorSimulation: true
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+updateLighting: false
+    orbitRadius: 80
+    prebuildBase: true 
+    atmosphereRadIn: 0
+    atmosphereRadOut: 0
+    atmosphereColor: edf3a9
+    alwaysUnlocked: true
+    defaultCore: core-colony
+    clearSectorOnLose: true
+    visible: true
+    startSector: 41
+    sectorSize: 2
+    sectorSeed: 1
+    landCloudColor: 9ef0ff
+cloudMesh: {
+  type: HexSkyMesh
+  planet: blatnica
+  seed: 2
+  speed: 3
+  radius: 0.2
+  divisions: 5
+  color: edf3a9
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+bloom: false
+}
+cloudMesh: {
+  type: HexSkyMesh
+  planet: blatnica
+  seed: 4
+  speed: 2
+  radius: 0.19
+  divisions: 5
+  color: edf3a9
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+bloom: false
+}
+   mesh: {
+      type: NoiseMesh
+      planet: blatniza
+      seed: 1
+      color1: 3c3837
+      color2: cfce66
+      divisions: 4
+      radius: 1
+      octaves: 8
+      persistence: 0.8
+      scale: 2
+      mag: 1
+bloom: false
+    }
+    hiddenItems: [
+        copper
+        scrap
+        coal
+        silicon
+        surge-alloy
+        spore-pod
+        sand
+        blast-compound
+        pyratite
+        metaglass
+        beryllium
+        oxide
+        carbide
+        fissile-matter
+        dormant-cyst
+       ]
+hidden: false
+tidalLock: true

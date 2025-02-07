@@ -1,0 +1,23 @@
+name: Pipe Bridge
+description: X
+type: LiquidBridge
+category: liquid
+health: 16
+size: 1
+requirements: [
+	graphite/4
+	niterium/6
+]
+
+range: 5
+hasPower: false
+
+research: {
+parent: pipex
+requirements: [
+	graphite/4
+	niterium/6
+]
+}
+
+squareSprite: false

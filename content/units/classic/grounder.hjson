@@ -1,0 +1,43 @@
+name: Grounder
+description: X
+type: mech
+health: 100
+speed: 0.8
+drag: 0.2
+accel: 0.1
+rotateSpeed: 3
+hitSize: 4
+omniMovement: true
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+
+weapons: [
+{
+name: grounder-weapon
+mirror: true
+x: 4.5
+y: 1.5
+rotate: false
+reload: 40
+shootSound: shockBlast
+ejectEffect: casing2
+layerOffset: -0.002
+bullet: {
+	hitEffect: blastExplosion
+	recoil: 0.1
+	width: 8
+	height: 8
+	trailColor: 515151
+	trailLength: 6
+	trailWidth: 2
+	type: basicBulletType
+	splashDamage: 6
+	splashDamageRadius: 16
+	lifetime: 18
+	speed: 6
+	frontColor: FFFFFFF
+	backColor: 515151
+}
+}
+]

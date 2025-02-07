@@ -1,0 +1,29 @@
+name: Screwdriver
+description: X
+type: Drill
+category: production
+health: 40
+size: 2
+requirements: [
+	graphite/12
+	lead/6
+]
+
+drillTime: 420
+tier: 2
+drawMineItem: false
+rotateSpeed: 2
+consumes: {
+	power: 0.4
+}
+liquidBoostIntensity: 1
+
+research: {
+parent: geothermal-generator
+requirements: [
+	graphite/12
+	lead/6
+]
+}
+
+squareSprite: false

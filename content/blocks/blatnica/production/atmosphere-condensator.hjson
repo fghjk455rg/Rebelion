@@ -1,0 +1,54 @@
+name: Atmosphere Condensator
+description: X
+type: GenericCrafter
+category: production
+health: 40
+size: 2
+requirements: [
+	graphite/18
+	lead/4
+]
+
+craftTime: 120
+consumes: {
+	power: 0.1
+}
+outputLiquids: [
+    acid/0.1
+    nitrogen/0.2
+    acid/0.1
+    nitrogen/0.2
+]
+liquidOutputDirections: [1, 2, 3, 4]
+ignoreLiquidFullness: true
+rotate: true
+invertFlip: true
+ambientSound: electricHum
+
+research: {
+parent: geothermal-generator
+requirements: [
+	graphite/18
+	lead/4
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+}
+{
+	type: drawLiquidOutputs
+}
+{
+	type: drawParticles
+	color: d4f0ff
+	alpha: 0.6
+	particleSize: 3
+	particles: 10
+	particleRad: 9
+	particleLife: 140
+}
+]

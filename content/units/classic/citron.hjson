@@ -1,0 +1,44 @@
+name: Citron
+description: X
+type: legs
+health: 60
+speed: 0.7
+drag: 0.2
+rotateSpeed: 3
+hitSize: 4
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+
+legCount: 6
+legLength: 7
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 0.9
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+
+legMoveSpace: 1
+shadowElevation: 0.2
+hovering: true
+
+buildSpeed: 0.4
+itemCapacity: 40
+mineRange: 40
+mineTier: 5
+mineSpeed: 4
+mineHardnessScaling: false
+
+abilities: [
+{
+	type: RepairFieldAbility
+	radius: 64
+	regen: 40
+	cooldown: 120
+}
+]
