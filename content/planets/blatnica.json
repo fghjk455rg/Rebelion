@@ -20,7 +20,8 @@ updateLighting: false
     startSector: 41
     sectorSize: 2
     sectorSeed: 1
-    landCloudColor: 9ef0ff
+    landCloudColor: edf3a9
+//9ef0ff
 cloudMesh: {
   type: HexSkyMesh
   planet: blatnica

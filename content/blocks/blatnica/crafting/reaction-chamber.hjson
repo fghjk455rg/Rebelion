@@ -76,6 +76,6 @@ drawer: [
 	suffix: -glow
 	alpha: 0.5
 	glowScale: 5
-	color: ffaa6655
+	color: ffd6f355
 }
 ]
