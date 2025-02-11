@@ -5,7 +5,7 @@ category: crafting
 health: 40
 size: 2
 requirements: [
-	graphite/20
+	graphite/16
 	lead/10
 ]
 

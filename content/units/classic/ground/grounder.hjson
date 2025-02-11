@@ -1,7 +1,7 @@
 name: Grounder
 description: X
 type: mech
-health: 100
+health: 80
 speed: 0.8
 drag: 0.2
 accel: 0.1
@@ -16,8 +16,8 @@ weapons: [
 {
 name: grounder-weapon
 mirror: true
-x: 4.5
-y: 1.5
+x: 4.2
+y: 1.2
 rotate: false
 reload: 30
 shootSound: shockBlast

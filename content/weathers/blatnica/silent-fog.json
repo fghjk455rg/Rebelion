@@ -1,6 +1,9 @@
+name: Silent fog
 type: ParticleWeather
-baseSpeed: 0.2
 color: 5e7f6e
+noiseColor: 5e7f6e10
+
+baseSpeed: 0.2
 density: 750
 useWindVector: true
 particleRegion: particle
@@ -9,14 +12,17 @@ sizeMax: 60
 minAlpha: 0.2
 maxAlpha: 0.3
 drawNoise: true
-noiseColor: 5e7f6e10
-noiseLayers: 5
+drawParticles: false
+noiseLayers: 4
 noiseScale: 1600
 noisePath: fog
-noiseLayerSclM: 0.5
-noiseLayerAlphaM: 0.1
+noiseLayerSclM: 0.8
+noiseLayerAlphaM: 0.7
+noiseLayerSpeedM: 2
 status: wet
 baseSpeed: 0.2
 sound: ihear
 soundVol: 0.25
-name: Silent fog
+xspeed: 1
+yspeed: 0.01
+opacityMultiplier: 0.47
