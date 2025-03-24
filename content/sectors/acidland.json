@@ -1,0 +1,15 @@
+sector: 40
+planet: ens-mod-blatnica
+localizedName: Acidland
+difficulty: 2
+research:{
+parent: coastlineb
+objectives: [
+{
+	type: sectorComplete
+	preset: coastlineb
+}
+niterium
+]
+}
+alwaysUnlocked: false

@@ -1,0 +1,27 @@
+name: Colonist
+description: X
+health: 20
+speed: 3
+drag: 0.1
+accel: 0.1
+rotateSpeed: 20
+hitSize: 4
+flying: true
+lowAltitude: true
+omniMovement: true
+engineOffset: 4
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+buildSpeed: 0.6
+fogRadius: 0
+coreUnitDock: true
+targetPriority: -2
+targetable: false
+hittable: false
+
+itemCapacity: 20
+mineRange: 80
+mineTier: 5
+mineSpeed: 4
+mineHardnessScaling: false

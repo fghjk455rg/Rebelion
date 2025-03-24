@@ -1,0 +1,122 @@
+name: Blast Drill
+description: X
+type: BurstDrill
+category: production
+health: 80
+size: 3
+requirements: [
+	graphite/34
+	selium/18
+	niterium/22
+]
+lightRadius: 12
+
+drillTime: 480
+tier: 3
+drawMineItem: false
+consumes: {
+	power: 0.6
+	liquids: [
+		sulfur-gas/0.2
+	]
+}
+arrows: 1
+arrowOffset: 0
+arrowSpacing: 0
+shake: 2
+drillEffect: [
+{
+	type: ParticleEffect
+	particles: 4
+	lifetime: 100
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 30
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: 84a94b80
+	colorTo: d2dd7630
+	sizeFrom: 2
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 4
+	lifetime: 90
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 30
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: 84a94b80
+	colorTo: d2dd7630
+	sizeFrom: 2
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 4
+	lifetime: 80
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 30
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: 84a94b80
+	colorTo: d2dd7630
+	sizeFrom: 2
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 4
+	lifetime: 70
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 30
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: 84a94b80
+	colorTo: d2dd7630
+	sizeFrom: 2
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 4
+	lifetime: 60
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 30
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: 84a94b80
+	colorTo: d2dd7630
+	sizeFrom: 2
+	sizeTo: 0
+}
+]
+blockedItem: graphite
+hasLiquids: true
+
+research: {
+parent: screwdriver
+requirements: [
+	graphite/34
+	selium/18
+	niterium/22
+]
+}
+drillsound: smoky_hit
+
+squareSprite: false

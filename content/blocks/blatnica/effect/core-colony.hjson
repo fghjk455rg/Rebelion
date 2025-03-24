@@ -9,8 +9,8 @@ requirements: [
 	lead/160
 	selium/80
 ]
-lightRadius: 60
-fogRadius: 11
+lightRadius: 40
+fogRadius: 20
 
 isFirstTier: true
 unitType: colonist

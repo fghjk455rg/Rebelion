@@ -5,9 +5,11 @@ category: crafting
 health: 40
 size: 2
 requirements: [
-	graphite/20
+	graphite/16
 	lead/10
 ]
+lightRadius: 8
+lightColor: edb6e2
 
 craftTime: 120
 consumes: {
@@ -16,7 +18,7 @@ consumes: {
 		nitrogen/0.4
 	]
 	items: [
-		lead/2
+		lead/1
 	]
 }
 outputItem: niterium/2
@@ -39,7 +41,7 @@ parent: atmosphere-condensator
 objectives: [
 {
 	type: OnSector
-	preset: coastline
+	preset: coastlineb
 }
 ]
 requirements: [

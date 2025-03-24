@@ -1,0 +1,91 @@
+name: Silvest
+description: X
+type: naval
+health: 120
+speed: 0.8
+drag: 0.2
+accel: 0.3
+rotateSpeed: 6
+hitSize: 8
+omniMovement: true
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+faceTarget: false
+
+trailLength: 10
+waveTrailY: -4
+trailScl: 1.8
+
+weapons: [
+{
+name: silvest-weapon
+mirror: false
+x: 0
+y: 0
+rotate: true
+reload: 30
+shootSound: twins_shot
+ejectEffect: casing1
+targetAir: false
+recoil: 2
+bullet: {
+	width: 8
+	height: 8
+	trailColor: b7c8ff
+	trailLength: 6
+	trailWidth: 2
+	type: basicBulletType
+	damage: 6
+	speed: 3
+	lifetime: 40
+	frontColor: b7c8ff
+	backColor: b7c8ff
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 6
+			lifetime: 40
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 20
+			lightColor: 95abd9
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: b7c8ff
+			colorTo: b7c8ff
+			sizeFrom: 1
+			sizeTo: 0
+	}
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 3
+			lifetime: 60
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 10
+			lightColor: 95abd9
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: b7c8ff
+			colorTo: b7c8ff
+			sizeFrom: 2
+			sizeTo: 0
+	}
+}
+}
+]
+research: {
+parent: basis-assembler
+objectives: [
+{
+	type: OnSector
+	preset: acidland
+}
+]
+requirements: [
+	niterium/10
+	selium/10
+]
+}

@@ -5,15 +5,17 @@ category: crafting
 health: 40
 size: 2
 requirements: [
-	graphite/18
+	graphite/14
 	lead/16
 ]
+lightRadius: 8
+lightColor: dbc652
 
 craftTime: 240
 consumes: {
 	power: 0.6
 	liquids: [
-		acid/0.2
+		sulfur-gas/0.1
 	]
 	items: [
 		lead/1
@@ -41,7 +43,7 @@ drawer: [
 }
 {
 	type: DrawLiquidRegion
-	drawLiquid: acid
+	drawLiquid: sulfur-gas
 	suffix: -liquid
 }
 {

@@ -1,0 +1,42 @@
+name: Cooler
+description: X
+type: GenericCrafter
+category: crafting
+health: 40
+size: 2
+requirements: [
+	graphite/8
+	selium/12
+	titanium/16
+]
+
+craftTime: 240
+consumes: {
+	power: 2
+	liquids: [
+		nitrogen/0.4
+		water/0.1
+	]
+	items: [
+		titanium/1
+	]
+}
+outputLiquid: cryofluid/0.1
+hasLiquids: true
+craftEffect: pulverizeMedium
+
+
+
+squareSprite: false
+drawer: [
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 1
+	glowScale: 5
+	color: ffaa6655
+}
+]

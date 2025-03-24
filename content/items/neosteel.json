@@ -1,0 +1,8 @@
+name: Neosteel
+type: item
+cost: 2.0
+color: edb6e2
+research: {
+parent: titanium
+planet: ens-mod-blatnica
+}

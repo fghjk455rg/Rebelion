@@ -19,7 +19,7 @@ mirror: true
 x: 4.5
 y: 1.5
 rotate: false
-reload: 40
+reload: 30
 shootSound: shockBlast
 ejectEffect: casing2
 layerOffset: -0.002
@@ -32,8 +32,8 @@ bullet: {
 	trailLength: 6
 	trailWidth: 2
 	type: basicBulletType
-	splashDamage: 6
-	splashDamageRadius: 16
+	splashDamage: 4
+	splashDamageRadius: 8
 	lifetime: 18
 	speed: 6
 	frontColor: FFFFFFF

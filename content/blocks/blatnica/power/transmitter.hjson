@@ -1,0 +1,32 @@
+name: Transmitter
+description: X
+type: PowerNode
+category: power
+health: 6
+size: 1
+requirements: [
+	lead/10
+	niterium/4
+]
+lightRadius: 10
+
+maxNodes: 4
+laserRange: 14
+laserColor1: ffffff
+laserColor2: b7c8ff
+
+research: {
+parent: substation
+objectives: [
+{
+	type: OnSector
+	preset: acidland
+}
+]
+requirements: [
+	lead/10
+	niterium/4
+]
+}
+
+squareSprite: false

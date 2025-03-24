@@ -5,11 +5,11 @@ category: production
 health: 40
 size: 2
 requirements: [
-	graphite/12
-	lead/6
+	graphite/10
+	lead/8
 ]
 
-drillTime: 420
+drillTime: 360
 tier: 2
 drawMineItem: false
 rotateSpeed: 2

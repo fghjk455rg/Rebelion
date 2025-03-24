@@ -1,0 +1,42 @@
+name: Sito Blyat, Ne Lez'
+description: X
+type: Separator
+category: crafting
+health: 60
+size: 2
+requirements: [
+	lead/10
+	selium/20
+	titanium/10
+]
+
+craftTime: 120
+consumes: {
+	power: 1
+}
+ignoreLiquidFullness: true
+craftEffect: pulverizeMedium
+ambientSound: techloop
+ambientSoundVolume: 0.02
+craftEffect: smeltsmoke
+results: [
+	graphite/2
+	tungsten/1
+]
+
+
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{
+	type: drawWeave
+}
+{
+	type: DrawDefault
+}
+]

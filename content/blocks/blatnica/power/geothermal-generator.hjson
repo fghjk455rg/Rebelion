@@ -5,10 +5,10 @@ category: power
 health: 40
 size: 2
 requirements: [
-	graphite/16
+	graphite/10
 	lead/20
 ]
-lightRadius: 10
+lightRadius: 6
 
 
 powerProduction: 1

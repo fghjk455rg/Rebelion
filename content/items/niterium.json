@@ -1,6 +1,6 @@
 name: Niterium
 type: item
-cost: 1.0
+cost: 0.5
 color: edb6e2
 research: {
 parent: nitrogen

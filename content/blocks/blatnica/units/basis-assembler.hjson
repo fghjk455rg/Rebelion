@@ -1,0 +1,53 @@
+name: Basis Assembler
+description: X
+type: UnitFactory
+category: units
+health: 60
+size: 2
+requirements: [
+	graphite/20
+	lead/16
+	selium/18
+]
+
+consumes: {
+	power: 1
+	liquids: [
+		sulfur-gas/0.1
+	]
+}
+plans: [
+{
+	unit: grounder
+	time: 1200
+	requirements: [
+		graphite/10
+		selium/8
+	]
+}
+{
+	unit: silvest
+	time: 1200
+	requirements: [
+		niterium/10
+		selium/10
+	]
+}
+]
+
+research: {
+parent: atmosphere-condensator
+objectives: [
+{
+	type: OnSector
+	preset: coastlineb
+}
+]
+requirements: [
+	graphite/20
+	lead/16
+	selium/18
+]
+}
+
+squareSprite: false
