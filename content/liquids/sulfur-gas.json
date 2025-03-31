@@ -1,5 +1,5 @@
 type: liquid
-name: Acid
+name: Sulfur gas
 cache: water
 color: 	cfce66
 flammability: 0
@@ -9,7 +9,9 @@ explosiveness: 0
 coolant: false
 blockReactive: true
 effect: corroded
+gas: true
 research: {
 parent: lead
 planet: ens-mod-blatnica
 }
+gas: true

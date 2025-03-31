@@ -5,12 +5,11 @@ category: effect
 health: 20
 size: 1
 requirements: [
-	graphite/10
-	lead/8
-	selium/16
+	lead/4
+	selium/8
 ]
-lightRadius: 60
-fogRadius: 20
+lightRadius: 30
+fogRadius: 30
 
 outlineColor: 1b1b1e
 consumes: {
@@ -22,12 +21,12 @@ parent: substation
 objectives: [
 {
 	type: OnSector
-	preset: coastline
+	preset: coastlineb
 }
 ]
 requirements: [
-	graphite/10
-	lead/8
-	selium/16
+	graphite/6
+	lead/4
+	selium/8
 ]
 }

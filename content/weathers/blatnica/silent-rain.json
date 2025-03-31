@@ -1,0 +1,11 @@
+name: Silent rain
+type: RainWeather
+color: e5e497
+noiseColor: e5e49710
+
+status: wet
+sound: ihear
+soundVol: 0.20
+yspeed: 10
+xspeed: 5
+density: 200

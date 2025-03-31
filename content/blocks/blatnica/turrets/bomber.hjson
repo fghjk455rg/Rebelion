@@ -5,9 +5,9 @@ category: turret
 health: 60
 size: 2
 requirements: [
-	graphite/30
-	selium/16
-	niterium/14
+	graphite/26
+	selium/14
+	niterium/12
 ]
 outlineColor: 1b1b1e
 
@@ -18,8 +18,8 @@ ammoTypes: {
 	type: artilleryBulletType
 	with: 16
 	height: 16
-	lifetime: 300
-	speed: 2
+	lifetime: 400
+	speed: 2.2
 	damage: 14
 	hitSound: explosion
 	splashDamage: 14
@@ -56,8 +56,8 @@ ammoTypes: {
 	type: artilleryBulletType
 	with: 16
 	height: 16
-	lifetime: 240
-	speed: 4
+	lifetime: 300
+	speed: 3
 	damage: 6
 	hitSound: explosion
 	pierce: true
@@ -75,8 +75,8 @@ ammoTypes: {
 		type: BasicBulletType
 		width: 6
 		height: 6
-		speed: 0.4
-		lifetime: 40
+		speed: 0.3
+		lifetime: 30
 		damage: 4
 		splashDamage: 6
 		splashDamageRadius: 8
@@ -145,7 +145,7 @@ parent: gauss
 objectives: [
 {
 	type: OnSector
-	preset: coastline
+	preset: coastlineb
 }
 ]
 requirements: [

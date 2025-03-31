@@ -6,7 +6,7 @@ health: 440
 size: 2
 requirements: [
 	graphite/20
-	lead/16
+	lead/14
 ]
 armor: 1
 

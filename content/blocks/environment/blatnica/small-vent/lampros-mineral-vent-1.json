@@ -1,0 +1,9 @@
+type: floor
+name: Small vent
+attributes: {
+	steam: 1
+} 
+variants: 0
+blending: false
+parent: hard-carbon-floor
+blendGroup: hard-carbon-floor

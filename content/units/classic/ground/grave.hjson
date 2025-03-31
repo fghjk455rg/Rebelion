@@ -16,7 +16,7 @@ weapons: [
 {
 name: grave-weapon
 mirror: true
-x: 6
+x: 6.5
 y: 1.5
 rotate: false
 reload: 10
@@ -24,7 +24,7 @@ shootSound: twins_shot
 ejectEffect: casing2
 layerOffset: -0.002
 targetAir: false
-recoil: 4
+recoil: 2
 bullet: {
 	width: 12
 	height: 12

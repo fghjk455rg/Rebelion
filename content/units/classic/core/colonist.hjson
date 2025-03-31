@@ -14,6 +14,11 @@ lightRadius: 80
 lightColor: ffffff55
 outlineColor: 1b1b1e
 buildSpeed: 0.6
+fogRadius: 0
+coreUnitDock: true
+targetPriority: -2
+targetable: false
+hittable: false
 
 itemCapacity: 20
 mineRange: 80

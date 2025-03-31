@@ -5,8 +5,8 @@ category: turret
 health: 80
 size: 2
 requirements: [
-	graphite/22
-	lead/12
+	graphite/20
+	lead/10
 	selium/6
 ]
 outlineColor: 1b1b1e

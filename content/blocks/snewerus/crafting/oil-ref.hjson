@@ -1,0 +1,48 @@
+name: Oil Ref
+description: X
+type: GenericCrafter
+category: crafting
+health: 40
+size: 2
+requirements: [
+	niterium/8
+	selium/16
+	tungsten/14
+]
+
+craftTime: 240
+consumes: {
+	liquids: [
+		oil/0.8
+	]
+}
+outputLiquid: cryofluid/0.1
+ignoreLiquidFullness: true
+hasLiquids: true
+
+
+
+squareSprite: false
+drawer: [
+{
+	type: DrawRegion
+	suffix: -bottom
+}
+{
+	type: DrawRegion
+	suffix: -rotator2
+	rotateSpeed: -2
+	spinSprite: true
+	rotation: 30
+}
+{
+	type: DrawRegion
+	suffix: -rotator1
+	rotateSpeed: 2
+	spinSprite: true
+	rotation: 30
+}
+{
+	type: drawDefault
+}
+]

@@ -1,0 +1,7 @@
+type: Floor
+speedMultiplier: 0.8
+variants: 4
+isLiquid: true
+albedo: 0.5
+cacheLayer: water
+isLiquid: true
