@@ -1,7 +1,7 @@
-name: Citron
+name: Cerus
 description: X
 type: legs
-health: 60
+health: 50
 speed: 0.7
 drag: 0.2
 rotateSpeed: 3
@@ -9,6 +9,8 @@ hitSize: 4
 lightRadius: 80
 lightColor: ffffff55
 outlineColor: 1b1b1e
+            canBoost: true
+            boostMultiplier: 1.5
 
 legCount: 6
 legLength: 7

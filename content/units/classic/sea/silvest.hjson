@@ -1,7 +1,7 @@
 name: Silvest
 description: X
 type: naval
-health: 120
+health: 40
 speed: 0.8
 drag: 0.2
 accel: 0.3
@@ -36,12 +36,12 @@ bullet: {
 	trailLength: 6
 	trailWidth: 2
 	type: basicBulletType
-	damage: 6
+	damage: 5
 	speed: 3
-	lifetime: 40
+	lifetime: 34
 	frontColor: b7c8ff
 	backColor: b7c8ff
-	despawnEffect: {
+	hitEffect: {
 			type: ParticleEffect
 			particles: 6
 			lifetime: 40
