@@ -11,11 +11,11 @@ requirements: [
 ]
 lightRadius: 12
 
-drillTime: 480
+drillTime: 300
 tier: 3
 drawMineItem: false
 consumes: {
-	power: 0.6
+	power: 0.8
 	liquids: [
 		sulfur-gas/0.2
 	]

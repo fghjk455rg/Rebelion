@@ -16,6 +16,7 @@ generateEffect: redgeneratespark
 effectChance: 0.020
 ambientSound: hum
 ambientSoundVolume: 0.06
+outputLiquid: nitrogen/0.2
 
 research: {
 parent: core-colony

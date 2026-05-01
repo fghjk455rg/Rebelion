@@ -7,3 +7,6 @@ cacheLayer: water
 isLiquid: true
 drownTime: 400
 supportsOverlay: true
+attributes: {
+	sand:1
+}

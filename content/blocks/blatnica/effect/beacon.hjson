@@ -25,7 +25,6 @@ objectives: [
 }
 ]
 requirements: [
-	graphite/6
 	lead/4
 	selium/8
 ]

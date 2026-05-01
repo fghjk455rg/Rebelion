@@ -18,8 +18,13 @@ name: grounder-weapon
 mirror: true
 x: 4.2
 y: 1.2
+shoot: {
+shotDelay: 10
+shots: 2
+}
+inaccuracy: 3
 rotate: false
-reload: 30
+reload: 60
 shootSound: shockBlast
 ejectEffect: casing2
 layerOffset: -0.002
@@ -32,10 +37,10 @@ bullet: {
 	trailLength: 6
 	trailWidth: 2
 	type: basicBulletType
-	splashDamage: 4
+	splashDamage: 6
 	splashDamageRadius: 8
-	lifetime: 18
-	speed: 6
+	lifetime: 30
+	speed: 3.5
 	frontColor: FFFFFFF
 	backColor: 515151
 }

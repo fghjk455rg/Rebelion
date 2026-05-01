@@ -20,7 +20,7 @@ ammoTypes: {
 	height: 16
 	lifetime: 20
 	speed: 6
-	damage: 8
+	damage: 10
 	hitSound: bullethit
 	splashDamage: 2
 	splashDamageRadius: 1
@@ -52,19 +52,19 @@ ammoTypes: {
 	}
 	titanium: {
 	type: basicBulletType
-	with: 8
-	height: 18
-	lifetime: 20
-	speed: 8
-	damage: 20
+	with: 6
+	height: 20
+	lifetime: 18
+	speed: 10
+	damage: 21
 	hitSound: bullethit
 	rangeChange: 60
 	pierce: true
-	pierceCap: 1
+	pierceCap: 3
 	shootEffect: shootBigColor
 	smokeEffect: shootSmokeSquareSparse
 	hitColor: b7c8ff
-	backColor: 9090e0
+	backColor: 9191e3
 	trailColor: b7c8ff
 	trailWidth: 2.1
 	trailLength: 8
@@ -111,7 +111,12 @@ targetAir: true
 shootSound: pluhh
 recoilTime: 40
 rotateSpeed: 10
-coolantMultiplier: 2
+coolantMultiplier: 50
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.05
+}
 range: 120
 consumes: {
 	power: 0.6

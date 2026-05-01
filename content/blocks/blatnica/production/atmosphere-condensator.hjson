@@ -1,28 +1,26 @@
-name: Atmosphere Condensator
+name: Acid Condensator
 description: X
-type: GenericCrafter
+type: AttributeCrafter
 category: production
 health: 40
 size: 2
 requirements: [
-	graphite/16
-	lead/6
+	graphite/14
+	lead/16
 ]
 
-craftTime: 120
+craftTime: 480
 consumes: {
-	power: 0.1
+	items: [
+		graphite/1
+	]
 }
-outputLiquids: [
-    sulfur-gas/0.05
-    nitrogen/0.1
-    sulfur-gas/0.05
-    nitrogen/0.1
-]
-liquidOutputDirections: [1, 2, 3, 4]
+outputLiquid: sulfur-gas/0.2
 ignoreLiquidFullness: true
-rotate: true
-invertFlip: true
+attribute: sand
+displayEfficiency: true
+baseEfficiency: 0
+placeableLiquid: true
 ambientSound: electricHum
 
 research: {
@@ -44,11 +42,29 @@ drawer: [
 }
 {
 	type: drawParticles
-	color: d4f0ff
+	color: cfce66
 	alpha: 0.6
 	particleSize: 3
 	particles: 10
 	particleRad: 9
 	particleLife: 140
+}
+{
+	type: drawParticles
+	color: cfce66
+	alpha: 0.6
+	particleSize: 1
+	particles: 20
+	particleRad: 10
+	particleLife: 120
+}
+{
+	type: drawParticles
+	color: cfce66
+	alpha: 0.6
+	particleSize: 1
+	particles: 10
+	particleRad: 10
+	particleLife: 120
 }
 ]

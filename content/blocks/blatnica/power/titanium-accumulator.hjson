@@ -1,0 +1,33 @@
+name: Titanium Accumulator
+description: X
+type: Battery
+category: power
+health: 40
+size: 2
+requirements: [
+	titanium/1
+	niterium/1
+]
+lightRadius: 2
+
+
+fullLightColor: 99d1ffff
+emptyLightColor: 9090e0ff
+hasPower: true
+outputsPower: true
+consumesPower: true
+hasItems: false
+canOverdrive: false
+consumes: {
+	powerBuffered: 3600
+}
+
+research: {
+parent: substation
+requirements: [
+	titanium/1
+	niterium/1
+]
+}
+
+squareSprite: false

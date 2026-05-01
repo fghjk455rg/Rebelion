@@ -1,0 +1,20 @@
+name: Inverted Overflow Gate
+description: X
+type: OverflowGate
+category: distribution
+health: 14
+size: 1
+requirements: [
+	graphite/3
+	lead/2
+]
+
+invert: true
+
+research: {
+parent: beltrouter
+requirements: [
+	graphite/3
+	lead/2
+]
+}

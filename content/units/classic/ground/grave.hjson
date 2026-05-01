@@ -1,7 +1,7 @@
 name: Grave
 description: X
 type: mech
-health: 240
+health: 320
 speed: 0.6
 drag: 0.2
 accel: 0.1

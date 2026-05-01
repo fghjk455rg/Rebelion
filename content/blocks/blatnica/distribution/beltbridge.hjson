@@ -11,6 +11,7 @@ requirements: [
 
 range: 4
 hasPower: false
+speed: 0.03
 
 research: {
 parent: beltx
@@ -19,3 +20,5 @@ requirements: [
 	lead/6
 ]
 }
+
+squareSprite: false

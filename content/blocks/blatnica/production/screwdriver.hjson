@@ -9,14 +9,21 @@ requirements: [
 	lead/8
 ]
 
-drillTime: 360
+drillTime: 320
 tier: 2
 drawMineItem: false
 rotateSpeed: 2
+liquidBoostIntensity: 1.2
 consumes: {
 	power: 0.4
+	liquid: {
+	liquid: water
+	amount: 0.05
+	booster: true
+	optional: true
+	update: true
+	}
 }
-liquidBoostIntensity: 1
 
 research: {
 parent: geothermal-generator

@@ -11,7 +11,7 @@ requirements: [
 lightRadius: 8
 lightColor: edb6e2
 
-craftTime: 120
+craftTime: 240
 consumes: {
 	power: 1
 	liquids: [

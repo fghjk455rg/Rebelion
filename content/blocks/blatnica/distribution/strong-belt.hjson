@@ -1,0 +1,24 @@
+name: Strong Belt
+description: X
+type: ArmoredConveyor
+category: distribution
+health: 24
+size: 1
+requirements: [
+	lead/3
+	titanium/2
+]
+buildTime: 180
+
+speed: 0.04
+displayedSpeed: 5.6
+buildCostMultiplier: 2
+junctionReplacement: ens-mod-beltx
+bridgeReplacement: ens-mod-beltbridge
+
+research: {
+parent: screwdriver
+requirements: [
+	lead/1
+]
+}

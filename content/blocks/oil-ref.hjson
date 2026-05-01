@@ -1,8 +1,8 @@
-name: Oil Ref
+name: Oil Refinery
 description: X
 type: GenericCrafter
 category: crafting
-health: 40
+health: 60
 size: 2
 requirements: [
 	niterium/8
@@ -10,14 +10,16 @@ requirements: [
 	tungsten/14
 ]
 
-craftTime: 240
+craftTime: 120
 consumes: {
 	liquids: [
-		oil/0.8
+		slag/0.1
+	]
+	items: [
+		sand/1
 	]
 }
-outputLiquid: cryofluid/0.1
-ignoreLiquidFullness: true
+outputItem: tungsten/1
 hasLiquids: true
 
 

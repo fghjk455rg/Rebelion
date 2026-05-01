@@ -1,0 +1,69 @@
+name: Vent Pump
+description: X
+type: AttributeCrafter
+category: production
+health: 90
+size: 3
+requirements: [
+	tungsten/1
+]
+
+consumes: {
+	power: 1.2
+}
+craftTime: 5
+outputLiquid: arkycite/0.4
+attribute: steam
+displayEfficiency: false
+baseEfficiency: 0
+minEfficiency: 8.7
+hasItems: false
+liquidCapacity: 12
+hasLiquids: true
+liquidCapacity: 10
+fogRadius: 3
+
+research: {
+parent: screwdriver
+requirements: [
+	tungsten/1
+]
+}
+
+
+squareSprite: false
+drawer: [
+{
+	type: DrawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	suffix: -liquid
+	drawLiquid: arkycite
+}
+{
+	type: DrawRegion
+	suffix: -rotator
+	spinSprite: true
+	rotateSpeed: 2.5
+}
+{	
+        type: DrawPistons
+        suffix: -piston
+        sinMag: 2
+        sinScl: 4.4
+	sideOffset: 3.14
+        sides: 8
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 1
+	glowScale: 5
+	color: ff8042
+}
+{
+	type: DrawDefault
+}
+]

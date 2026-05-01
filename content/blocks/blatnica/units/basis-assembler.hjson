@@ -11,9 +11,8 @@ requirements: [
 ]
 
 consumes: {
-	power: 1
 	liquids: [
-		sulfur-gas/0.1
+		water/0.1
 	]
 }
 plans: [
@@ -29,14 +28,23 @@ plans: [
 	unit: silvest
 	time: 1200
 	requirements: [
-		niterium/10
-		selium/10
+		niterium/8
+		selium/8
+	]
+}
+{
+	unit: citron
+	time: 2400
+	requirements: [
+		graphite/12
+		titanium/8
+		selium/12
 	]
 }
 ]
 
 research: {
-parent: atmosphere-condensator
+parent: selium-sinthesizer
 objectives: [
 {
 	type: OnSector

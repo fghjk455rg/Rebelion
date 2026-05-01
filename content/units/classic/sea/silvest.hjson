@@ -14,8 +14,7 @@ outlineColor: 1b1b1e
 faceTarget: false
 
 trailLength: 10
-waveTrailY: -4
-trailScl: 1.8
+
 
 weapons: [
 {
@@ -24,7 +23,7 @@ mirror: false
 x: 0
 y: 0
 rotate: true
-reload: 30
+reload: 40
 shootSound: twins_shot
 ejectEffect: casing1
 targetAir: false
@@ -36,9 +35,9 @@ bullet: {
 	trailLength: 6
 	trailWidth: 2
 	type: basicBulletType
-	damage: 5
-	speed: 3
-	lifetime: 34
+	damage: 6
+	speed: 2.42
+	lifetime: 50
 	frontColor: b7c8ff
 	backColor: b7c8ff
 	hitEffect: {

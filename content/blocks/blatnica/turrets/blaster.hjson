@@ -1,0 +1,88 @@
+name: Blaster
+description: X
+type: PowerTurret
+category: turret
+health: 100
+size: 2
+requirements: [
+	titanium/20
+	selium/16
+]
+outlineColor: 1b1b1e
+shoot: {
+shootCone: 10
+moveWhileCharging: false
+}
+shootType: {
+type: shrapnelBulletType
+with: 6
+length: 70
+brange: 80
+damage: 22
+serrations: 5
+serrationLenScl: 14
+serrationWidth: 3
+serrationSpacing: 7
+shootEffect: shootBigColor
+smokeEffect: shootBigSmoke
+fromColor: 95abd9
+toColor: 7380ac
+knockback: 4
+buildingDamageMultiplier: 4
+}
+reload: 40
+recoil: 1
+targetAir: false
+shootSound: shootFuse
+recoilTime: 40
+rotateSpeed: 4
+coolantMultiplier: 50
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.05
+}
+shake: 3
+range: 70
+consumes: {
+	power: 2.0
+}
+shootY: 7
+ammoPerShot: 2
+maxAmmo: 8
+drawer: {
+	type: drawTurret
+	basePrefix: blaster-
+	parts: [
+	{
+		type: regionPart
+		suffix: -barrel
+		progress: recoil
+		moveY: -1.5
+		heatColor: f03b0e
+		mirror: false
+	}
+	{
+		type: regionPart
+		suffix: -abarrel
+		progress: recoil
+		moveY: 0.5
+		heatColor: f03b0e
+		mirror: false
+	}
+	]
+}
+
+research: {
+parent: gauss
+objectives: [
+{
+	type: OnSector
+	preset: coastlineb
+}
+]
+requirements: [
+	titanium/20
+	selium/16
+]
+}

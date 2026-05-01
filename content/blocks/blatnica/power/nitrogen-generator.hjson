@@ -1,0 +1,105 @@
+name: Nitrogen Turbine
+description: X
+type: ConsumeGenerator
+category: power
+health: 60
+size: 2
+requirements: [
+	lead/32
+	niterium/24
+	titanium/18
+]
+lightRadius: 8
+
+powerProduction: 6
+baseEfficiency: 0
+minEfficiency: 0.25
+effectChance: 0.1
+ambientSound: hum
+ambientSoundVolume: 0.06
+consumes: {
+	liquids: [
+		arkycite/0.1
+	]
+	items: [
+		graphite/1
+	]
+}
+itemDuration: 240
+hasLiquids: true
+generateEffect: {
+	particles: 1
+	length: 50
+	lifetime: 240
+	cone: 12
+	baseRotation: 32
+	sizeFrom: 2
+	sizeTo: 7
+	colorTo: 31313100
+	sizeInterp: pow2Out
+	interp: pow2Out
+}
+
+research: {
+parent: geothermal-generator
+objectives: [
+{
+	type: OnSector
+	preset: coastlineb
+}
+]
+requirements: [
+	lead/32
+	niterium/24
+	titanium/18
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: arkycite
+	suffix: -liquid
+}
+{
+	type: drawParticles
+	color: e5e497
+	alpha: 0.6
+	particleSize: 1
+	particles: 30
+	particleRad: 6
+	particleLife: 60
+}
+{
+	type: drawParticles
+	color: e5e497
+	alpha: 0.6
+	particleSize: 2
+	particles: 20
+	particleRad: -6
+	particleLife: 60
+}
+{
+	type: DrawBlurSpin
+	suffix: -rotor
+	rotateSpeed: 2
+	spinSprite: true
+	layer: 200
+}
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.9
+	glowScale: 10
+	color: ffaa6655
+}
+]

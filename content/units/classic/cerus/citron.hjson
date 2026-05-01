@@ -2,15 +2,13 @@ name: Cerus
 description: X
 type: legs
 health: 50
-speed: 0.7
+speed: 0.5
 drag: 0.2
 rotateSpeed: 3
 hitSize: 4
 lightRadius: 80
 lightColor: ffffff55
 outlineColor: 1b1b1e
-            canBoost: true
-            boostMultiplier: 1.5
 
 legCount: 6
 legLength: 7
@@ -44,3 +42,77 @@ abilities: [
 	cooldown: 120
 }
 ]
+
+weapons: [
+{
+name: citron-weapon
+mirror: false
+x: 0
+y: 0
+rotate: false
+reload: 40
+shootSound: twins_shot
+ejectEffect: casing1
+targetAir: false
+recoil: 2
+bullet: {
+	width: 10
+	height: 6
+	trailColor: 84f491
+	trailLength: 8
+	trailWidth: 2
+	type: basicBulletType
+	damage: 4
+	speed: 2.42
+	lifetime: 40
+	frontColor: 84f491
+	backColor: 84f491
+	hitEffect: {
+			type: ParticleEffect
+			particles: 6
+			lifetime: 40
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 20
+			lightColor: 84f491
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: 84f491
+			colorTo: 84f491
+			sizeFrom: 1
+			sizeTo: 0
+	}
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 3
+			lifetime: 60
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 10
+			lightColor: 95abd9
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: 84f491
+			colorTo: 84f491
+			sizeFrom: 2
+			sizeTo: 0
+	}
+}
+}
+]
+research: {
+parent: basis-assembler
+objectives: [
+{
+	type: OnSector
+	preset: acidland
+}
+]
+requirements: [
+	graphite/12
+	titanium/8
+	selium/14
+]
+}

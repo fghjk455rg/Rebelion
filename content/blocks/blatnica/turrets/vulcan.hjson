@@ -1,0 +1,199 @@
+name: Vulcan
+description: X
+type: ItemTurret
+category: turret
+health: 180
+size: 3
+requirements: [
+	titanium/24
+	lead/18
+	selium/18
+	niterium/24
+]
+outlineColor: 1b1b1e
+
+shootCone: 10
+inaccuracy: 6
+ammoTypes: {
+	niterium: {
+	type: artilleryBulletType
+	with: 10
+	height: 16
+	lifetime: 100
+	speed: 4
+	damage: 8
+	hitSound: bullethit
+	shootEffect: shootBigColor
+	smokeEffect: shootBigSmoke
+	hitColor: b7b7d8
+	backColor: 82779b
+	trailColor: b7b7d8
+	trailWidth: 2.1
+	trailLength: 6
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+        fragBullets: 8
+	fragBullet: {
+		type: artilleryBulletType
+		width: 8
+		height: 8
+		speed: 1
+		lifetime: 60
+		splashDamage: 4
+		splashDamageRadius: 20
+		despawnEffect: hitBulletColor
+		hitColor: ffd6f3
+		backColor: edb6e2
+		trailColor: edb6e2
+		trailWidth: 0.5
+		trailLength: 6
+	}
+	hitEffect: {
+			type: ParticleEffect
+			line: true
+			particles: 6
+			lifetime: 45
+			interp: circleOut
+			length: 40
+			cone: -40
+			strokeTo: 0
+			lightColor: b7b7d8
+			lenFrom: 6
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: ffffff
+			colorTo: b7b7d8
+	}
+	}
+	titanium: {
+	type: artilleryBulletType
+	with: 8
+	height: 16
+	lifetime: 80
+	speed: 6
+	damage: 6
+	splashDamage: 20
+	splashDamageRadius: 50
+	hitSound: bullethit
+	pierce: true
+	pierceCap: 6
+	shootEffect: shootBigColor
+	smokeEffect: shootSmokeSquareSparse
+	hitColor: b7c8ff
+	backColor: b7c8ff
+	trailColor: b7c8ff
+	trailWidth: 2.1
+	trailLength: 6
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 16
+			lifetime: 60
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 30
+			lightColor: b7c8ff
+			lenFrom: 10
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: b7c8ff
+			colorTo: 7380ac
+			sizeFrom: 3
+			sizeTo: 0
+	}
+	hitEffect: {
+			type: ParticleEffect
+			particles: 16
+			lifetime: 60
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 30
+			lightColor: b7c8ff
+			lenFrom: 10
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: b7c8ff
+			colorTo: 7380ac
+			sizeFrom: 3
+			sizeTo: 0
+	}
+	reloadMultiplier: 0.6
+	}
+}
+reload: 80
+recoil: 3
+targetAir: false
+shootSound: explosion
+recoilTime: 40
+rotateSpeed: 2
+coolantMultiplier: 2
+range: 540
+consumes: {
+	power: 1
+	liquids: [
+		sulfur-gas/0.4
+	]
+}
+drawer: {
+	type: drawTurret
+	basePrefix: vulcan-
+	parts: [
+	{  
+		type: RegionPart
+		suffix: -barrel-1
+		mirror: false
+		under: true
+		progress: recoil
+		moveY: -2
+		recoilIndex: 1
+heatProgress: recoil
+	}
+	{
+		type: RegionPart
+		suffix: -barrel-2
+		mirror: false
+		under: true
+		progress: recoil
+		moveY: -2
+		recoilIndex: 0
+heatProgress: recoil
+	}
+	{  
+		type: RegionPart
+		suffix: -barrel-3
+		mirror: false
+		under: true
+		progress: recoil
+		moveY: -2
+		recoilIndex: 2
+heatProgress: recoil
+	}
+	]
+}
+shootY: 4
+shoot: {
+	type: ShootBarrel
+	barrels: [
+	0, 0.5, 0
+	-5, 0, 0,
+	5, 0, 0
+	]
+}
+recoils: 3
+
+research: {
+parent: gauss
+objectives: [
+{
+	type: OnSector
+	preset: acidland
+}
+]
+requirements: [
+	graphite/44
+	lead/38
+	selium/26
+	niterium/30
+]
+}

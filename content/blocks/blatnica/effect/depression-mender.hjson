@@ -1,0 +1,72 @@
+name: Mender
+description: X
+type: RegenProjector
+category: effect
+health: 40
+size: 1
+requirements: [
+	titanium/5
+	selium/10
+]
+lightRadius: 40
+fogRadius: 10
+
+consumes: {
+	power: 0.6
+	liquids: [
+		water/0.05
+	]
+}
+baseColor: 99d1ff
+healPercent: 0.03
+range: 10
+color:  99d1ff
+
+research: {
+parent: beacon
+objectives: [
+{
+	type: OnSector
+	preset: coastlineb
+}
+]
+requirements: [
+	titanium/5
+	selium/10
+]
+}
+
+drawer: [
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.5
+	glowScale: 5
+	color: 99d1ff30
+}
+{
+	type: DrawPulseShape
+	layer: 1000
+	color: 99d1ff30
+}
+{
+	type: DrawShape
+	layer: 1000
+	color: 99d1ff30
+	radius: 3.5
+	useWarmupRadius: true
+	timeScl: 2
+}
+{
+	type: drawParticles
+	color: 99d1ff30
+	alpha: 0.6
+	particleSize: 2
+	particles: 8
+	particleRad: 10
+	particleLife: 120
+}
+]

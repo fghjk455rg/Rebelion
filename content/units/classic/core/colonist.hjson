@@ -1,7 +1,7 @@
 name: Colonist
 description: X
 health: 20
-speed: 3
+speed: 2.5
 drag: 0.1
 accel: 0.1
 rotateSpeed: 20
@@ -13,7 +13,8 @@ engineOffset: 4
 lightRadius: 80
 lightColor: ffffff55
 outlineColor: 1b1b1e
-buildSpeed: 0.6
+buildSpeed: 0.4
+
 fogRadius: 0
 coreUnitDock: true
 targetPriority: -2

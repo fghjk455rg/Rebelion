@@ -18,7 +18,7 @@ ammoTypes: {
 	type: artilleryBulletType
 	with: 16
 	height: 16
-	lifetime: 400
+	lifetime: 440
 	speed: 2.2
 	damage: 14
 	hitSound: explosion
@@ -58,7 +58,7 @@ ammoTypes: {
 	height: 16
 	lifetime: 300
 	speed: 3
-	damage: 6
+	damage: 4
 	hitSound: explosion
 	pierce: true
 	pierceCap: 1
@@ -75,11 +75,11 @@ ammoTypes: {
 		type: BasicBulletType
 		width: 6
 		height: 6
-		speed: 0.3
-		lifetime: 30
+		speed: 0.5
+		lifetime: 40
 		damage: 4
-		splashDamage: 6
-		splashDamageRadius: 8
+		splashDamage: 8
+		splashDamageRadius: 16
 		despawnEffect: hitBulletColor
 		hitColor: ffd6f3
 		backColor: edb6e2
@@ -113,7 +113,12 @@ targetAir: false
 shootSound: artillery
 recoilTime: 40
 rotateSpeed: 4
-coolantMultiplier: 2
+coolantMultiplier: 50
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.05
+}
 shake: 2
 range: 140
 consumes: {
