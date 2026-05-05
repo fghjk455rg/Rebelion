@@ -2,3 +2,4 @@ research: {
 parent: core-colony
 planet: ens-mod-blatnica
 }
+alwaysUnlocked: true

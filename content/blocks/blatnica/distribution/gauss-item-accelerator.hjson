@@ -20,8 +20,8 @@ consumes: {
 knockback: 2
 
 research: {
-parent: screwdriver
+parent: strong-belt
 requirements: [
-	lead/1
+	tungsten/1
 ]
 }

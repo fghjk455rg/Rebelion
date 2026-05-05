@@ -24,7 +24,7 @@ liquidCapacity: 10
 fogRadius: 3
 
 research: {
-parent: screwdriver
+parent: atmosphere-condensator
 requirements: [
 	tungsten/1
 ]

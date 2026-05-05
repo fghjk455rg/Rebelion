@@ -44,7 +44,7 @@ plans: [
 ]
 
 research: {
-parent: selium-sinthesizer
+parent: colonist
 objectives: [
 {
 	type: OnSector

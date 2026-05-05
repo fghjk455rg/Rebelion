@@ -37,7 +37,7 @@ craftEffect: {
 }
 
 research: {
-parent: atmosphere-condensator
+parent: selium-sinthesizer
 objectives: [
 {
 	type: OnSector

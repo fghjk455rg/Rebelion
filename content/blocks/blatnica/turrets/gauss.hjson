@@ -127,7 +127,7 @@ drawer: {
 }
 
 research: {
-parent: geothermal-generator
+parent: selium-sinthesizer
 requirements: [
 	graphite/22
 	lead/12

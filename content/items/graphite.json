@@ -2,3 +2,4 @@ research: {
 parent: lead
 planet: ens-mod-blatnica
 }
+alwaysUnlocked: true
