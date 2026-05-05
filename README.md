@@ -4,3 +4,4 @@
 
 WIP mindustry mod about interplanetary capmaign.
 
+Mod server: discord.gg/psf6q7pC27
