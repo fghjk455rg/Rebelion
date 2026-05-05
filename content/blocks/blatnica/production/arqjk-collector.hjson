@@ -57,13 +57,6 @@ drawer: [
         sides: 8
 }
 {
-	type: DrawGlowRegion
-	suffix: -glow
-	alpha: 1
-	glowScale: 5
-	color: ff8042
-}
-{
 	type: DrawDefault
 }
 ]

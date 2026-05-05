@@ -13,7 +13,7 @@ lightColor: dbc652
 
 craftTime: 240
 consumes: {
-	power: 0.6
+	power: 0.3
 	liquids: [
 		sulfur-gas/0.1
 	]

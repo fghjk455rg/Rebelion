@@ -24,7 +24,7 @@ placeableLiquid: true
 ambientSound: electricHum
 
 research: {
-parent: geothermal-generator
+parent: screwdriver
 requirements: [
 	graphite/18
 	lead/4

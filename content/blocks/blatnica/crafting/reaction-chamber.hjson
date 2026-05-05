@@ -13,7 +13,7 @@ lightColor: edb6e2
 
 craftTime: 240
 consumes: {
-	power: 1
+	power: 0.5
 	liquids: [
 		nitrogen/0.2
 	]

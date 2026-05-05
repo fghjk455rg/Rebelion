@@ -5,6 +5,7 @@ category: power
 health: 60
 size: 2
 requirements: [
+	tungsten/1
 	lead/32
 	niterium/24
 	titanium/18
@@ -41,14 +42,15 @@ generateEffect: {
 }
 
 research: {
-parent: geothermal-generator
+parent: arqjk-collector
 objectives: [
 {
 	type: OnSector
-	preset: coastlineb
+	preset: coastline
 }
 ]
 requirements: [
+	tungsten/1
 	lead/32
 	niterium/24
 	titanium/18

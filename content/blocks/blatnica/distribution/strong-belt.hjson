@@ -5,20 +5,20 @@ category: distribution
 health: 24
 size: 1
 requirements: [
-	lead/3
+	lead/2
 	titanium/2
 ]
 buildTime: 180
 
 speed: 0.04
 displayedSpeed: 5.6
-buildCostMultiplier: 2
 junctionReplacement: ens-mod-beltx
 bridgeReplacement: ens-mod-beltbridge
 
 research: {
-parent: screwdriver
+parent: belt
 requirements: [
-	lead/1
+	lead/2
+	titanium/2
 ]
 }

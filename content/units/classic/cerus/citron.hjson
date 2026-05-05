@@ -63,7 +63,7 @@ bullet: {
 	trailWidth: 2
 	type: basicBulletType
 	damage: 4
-	speed: 2.42
+	speed: 2.1
 	lifetime: 40
 	frontColor: 84f491
 	backColor: 84f491
@@ -85,11 +85,11 @@ bullet: {
 	}
 	despawnEffect: {
 			type: ParticleEffect
-			particles: 3
+			particles: 6
 			lifetime: 60
 			interp: circleOut
 			sizeInterp: pow5In
-			length: 10
+			length: 8
 			lightColor: 95abd9
 			lenFrom: 8
 			lenTo: 0
@@ -107,7 +107,7 @@ parent: basis-assembler
 objectives: [
 {
 	type: OnSector
-	preset: acidland
+	preset: darkcavern
 }
 ]
 requirements: [

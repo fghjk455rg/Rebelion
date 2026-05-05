@@ -27,7 +27,7 @@ parent: beacon
 objectives: [
 {
 	type: OnSector
-	preset: coastlineb
+	preset: darkcavern
 }
 ]
 requirements: [
@@ -35,6 +35,8 @@ requirements: [
 	selium/10
 ]
 }
+
+squareSprite: false
 
 drawer: [
 {

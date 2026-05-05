@@ -127,7 +127,7 @@ drawer: {
 }
 
 research: {
-parent: core-colony
+parent: geothermal-generator
 requirements: [
 	graphite/22
 	lead/12

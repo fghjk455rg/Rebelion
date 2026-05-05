@@ -5,6 +5,7 @@ category: turret
 health: 100
 size: 2
 requirements: [
+	lead/10
 	titanium/20
 	selium/16
 ]
@@ -78,10 +79,11 @@ parent: gauss
 objectives: [
 {
 	type: OnSector
-	preset: coastlineb
+	preset: darkcavern
 }
 ]
 requirements: [
+	lead/10
 	titanium/20
 	selium/16
 ]

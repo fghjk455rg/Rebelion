@@ -5,8 +5,9 @@ category: power
 health: 40
 size: 2
 requirements: [
-	titanium/1
-	niterium/1
+	lead/12
+	titanium/12
+	niterium/6
 ]
 lightRadius: 2
 
@@ -23,10 +24,11 @@ consumes: {
 }
 
 research: {
-parent: substation
+parent: transmitter
 requirements: [
-	titanium/1
-	niterium/1
+	lead/12
+	titanium/12
+	niterium/6
 ]
 }
 

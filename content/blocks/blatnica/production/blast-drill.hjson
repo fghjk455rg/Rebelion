@@ -15,7 +15,7 @@ drillTime: 300
 tier: 3
 drawMineItem: false
 consumes: {
-	power: 0.8
+	power: 0.6
 	liquids: [
 		sulfur-gas/0.2
 	]
@@ -111,6 +111,12 @@ hasLiquids: true
 
 research: {
 parent: screwdriver
+objectives: [
+{
+	type: OnSector
+	preset: acidland
+}
+]
 requirements: [
 	graphite/34
 	selium/18

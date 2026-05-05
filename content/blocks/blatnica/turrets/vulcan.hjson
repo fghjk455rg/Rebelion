@@ -183,17 +183,17 @@ shoot: {
 recoils: 3
 
 research: {
-parent: gauss
+parent: bomber
 objectives: [
 {
 	type: OnSector
-	preset: acidland
+	preset: coastline
 }
 ]
 requirements: [
-	graphite/44
-	lead/38
-	selium/26
-	niterium/30
+	tungsten/22
+	lead/18
+	selium/18
+	niterium/24
 ]
 }

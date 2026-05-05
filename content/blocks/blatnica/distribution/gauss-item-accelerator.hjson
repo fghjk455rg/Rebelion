@@ -1,0 +1,27 @@
+name: Gauss Item Accelerator
+description: X
+type: MassDriver
+category: distribution
+health: 80
+size: 2
+requirements: [
+	tungsten/1
+]
+
+range: 200
+minDistribute: 40
+itemCapacity: 40
+reload: 240
+bulletSpeed: 4
+shake: 2
+consumes: {
+	power: 0.6
+}
+knockback: 2
+
+research: {
+parent: screwdriver
+requirements: [
+	lead/1
+]
+}

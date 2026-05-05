@@ -1,0 +1,13 @@
+sector: 64
+planet: ens-mod-blatnica
+localizedName: Dark Caves
+difficulty: 2
+research:{
+parent: acidland
+objectives: [
+{
+	type: sectorComplete
+	preset: acidland
+}]
+}
+alwaysUnlocked: false
