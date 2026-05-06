@@ -1,0 +1,200 @@
+name: Neosteel Forge
+description: X
+type: AttributeCrafter
+category: crafting
+health: 100
+size: 3
+requirements: [
+	graphite/40
+	selium/20
+	titanium/20
+]
+
+craftTime: 480
+consumes: {
+	power: 1.2
+	items: [
+		titanium/4
+		graphite/2
+	]
+}
+
+attribute: heat
+baseEfficiency: 0
+minEfficiency: 4
+boostScale: 0.25
+liquidCapacity: 40
+outputItem: neosteel/2
+outputLiquid: slag/0.25
+ignoreLiquidFullness: true
+craftEffect: [
+{
+	type: ParticleEffect
+	particles: 6
+	lifetime: 20
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 10
+	lightColor: ffae7c
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: ea8878
+	colorTo: ffae7c
+	sizeFrom: 1
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 6
+	lifetime: 40
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 5
+	lightColor: ffae7c
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: ea8878
+	colorTo: ffae7c
+	sizeFrom: 1
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 6
+	lifetime: 40
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 5
+	lightColor: ffae7c
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: ea8878
+	colorTo: ffae7c
+	sizeFrom: 1
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 6
+	lifetime: 80
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 20
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: ea887840
+	colorTo: ffae7c40
+	sizeFrom: 3
+	sizeTo: 0
+}
+{
+	type: ParticleEffect
+	particles: 6
+	lifetime: 60
+	interp: circleOut
+	sizeInterp: pow5In
+	length: 20
+	lightColor: 95abd9
+	lenFrom: 8
+	lenTo: 0
+	strokeFrom: 5
+	colorFrom: ea887840
+	colorTo: ffae7c40
+	sizeFrom: 3
+	sizeTo: 0
+}
+]
+hasLiquids: true
+
+research: {
+parent: blast-drill
+requirements: [
+	graphite/40
+	selium/20
+	titanium/20
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: slag
+	suffix: -liquid1
+	alpha: 0.6
+}
+{
+	type: drawParticles
+	color: bc545240
+	alpha: 0.6
+	particleSize: 4
+	particles: 12
+	particleRad: 10
+	particleLife: 480
+}
+{
+	type: drawParticles
+	color: ffae7c50
+	alpha: 0.6
+	particleSize: 3
+	particles: 12
+	particleRad: 10
+	particleLife: 240
+}
+{
+	type: drawParticles
+	color: ffae7c50
+	alpha: 0.6
+	particleSize: 2
+	particles: 24
+	particleRad: 10
+	particleLife: 240
+}
+{
+	type: drawParticles
+	color: ffae7c50
+	alpha: 0.6
+	particleSize: 2
+	particles: 12
+	particleRad: 10
+	particleLife: 180
+}
+{
+	type: drawParticles
+	color: ffae7c50
+	alpha: 0.6
+	particleSize: 1
+	particles: 30
+	particleRad: 9
+	particleLife: 100
+}
+{
+	type: drawParticles
+	color: ffffff50
+	alpha: 0.6
+	particleSize: 1
+	particles: 20
+	particleRad: 10
+	particleLife: 20
+}
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.9
+	glowScale: 5
+	color: ffae7c30
+}
+]

@@ -1,0 +1,41 @@
+name: Air Assembler
+description: X
+type: UnitFactory
+category: units
+health: 70
+size: 2
+requirements: [
+	tungsten/1
+]
+
+consumes: {
+	liquids: [
+		hydrogen/0.2
+	]
+}
+plans: [
+{
+	unit: flare
+	time: 1200
+	requirements: [
+		niterium/12
+//niterium - foam
+		selium/4
+	]
+}
+]
+
+research: {
+parent: colonist
+objectives: [
+{
+	type: OnSector
+	preset: coastlineb
+}
+]
+requirements: [
+	tungsten/1
+]
+}
+
+squareSprite: false

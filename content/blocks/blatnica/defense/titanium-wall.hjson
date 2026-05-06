@@ -1,0 +1,17 @@
+name: Titanium Wall
+description: X
+type: Wall
+category: defense
+health: 180
+size: 1
+requirements: [
+	titanium/8
+]
+armor: 1
+
+research: {
+parent: graphite-wall
+requirements: [
+	titanium/8
+]
+}

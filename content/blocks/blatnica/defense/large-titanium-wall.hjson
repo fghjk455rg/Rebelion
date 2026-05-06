@@ -1,0 +1,17 @@
+name: Large Titanium Wall
+description: X
+type: Wall
+category: defense
+health: 760
+size: 2
+requirements: [
+	titanium/32
+]
+armor: 1
+
+research: {
+parent: titanium-wall
+requirements: [
+	titanium/32
+]
+}

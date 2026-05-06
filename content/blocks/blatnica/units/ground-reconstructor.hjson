@@ -1,0 +1,32 @@
+name: Ground Reconstructor
+description: X
+type: Reconstructor
+category: units
+health: 180
+size: 3
+requirements: [
+	tungsten/1
+]
+
+consumes: {
+	power: 2
+	liquids: [
+		water/0.1
+	]
+	items: [
+		tungsten/1
+	]
+}
+constructTime: 1200
+upgrades: [
+	[grounder, grave]
+]
+
+research: {
+parent: basis-assembler
+requirements: [
+	tungsten/1
+]
+}
+
+squareSprite: false
