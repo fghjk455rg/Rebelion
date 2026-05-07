@@ -34,7 +34,7 @@ buildingDamageMultiplier: 4
 reload: 40
 recoil: 1
 targetAir: false
-shootSound: shootFuse
+shootSound: hammer_shot
 recoilTime: 40
 rotateSpeed: 4
 coolantMultiplier: 50

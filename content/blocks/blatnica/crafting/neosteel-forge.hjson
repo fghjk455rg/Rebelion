@@ -114,9 +114,7 @@ hasLiquids: true
 research: {
 parent: blast-drill
 requirements: [
-	graphite/40
-	selium/20
-	titanium/20
+	tungsten/1
 ]
 }
 

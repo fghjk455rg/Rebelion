@@ -21,7 +21,8 @@ ammoTypes: {
 	lifetime: 440
 	speed: 2.2
 	damage: 14
-	hitSound: explosion
+	shootSound: smoky_shot
+	hitSound: smoky_hit
 	splashDamage: 14
 	splashDamageRadius: 32
 	shootEffect: shootBigColor
@@ -59,7 +60,8 @@ ammoTypes: {
 	lifetime: 300
 	speed: 3
 	damage: 4
-	hitSound: explosion
+	shootSound: smoky_shot
+	hitSound: smoky_hit
 	pierce: true
 	pierceCap: 1
 	shootEffect: shootTitan

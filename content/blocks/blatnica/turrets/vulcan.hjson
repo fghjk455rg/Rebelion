@@ -22,7 +22,8 @@ ammoTypes: {
 	lifetime: 100
 	speed: 4
 	damage: 8
-	hitSound: bullethit
+	shootSound: smoky_shot
+	hitSound: smoky_hit
 	shootEffect: shootBigColor
 	smokeEffect: shootBigSmoke
 	hitColor: b7b7d8
@@ -74,7 +75,8 @@ ammoTypes: {
 	damage: 6
 	splashDamage: 20
 	splashDamageRadius: 50
-	hitSound: bullethit
+	shootSound: smoky_shot
+	hitSound: smoky_hit
 	pierce: true
 	pierceCap: 6
 	shootEffect: shootBigColor

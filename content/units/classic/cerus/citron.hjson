@@ -38,7 +38,7 @@ abilities: [
 {
 	type: RepairFieldAbility
 	radius: 64
-	regen: 40
+	regen: 20
 	cooldown: 120
 }
 ]
@@ -46,12 +46,12 @@ abilities: [
 weapons: [
 {
 name: citron-weapon
-mirror: false
-x: 0
+mirror: true
+x: 1
 y: 0
 rotate: false
-reload: 40
-shootSound: twins_shot
+reload: 20
+shootSound: ricochet_shot
 ejectEffect: casing1
 targetAir: false
 recoil: 2
@@ -62,9 +62,9 @@ bullet: {
 	trailLength: 8
 	trailWidth: 2
 	type: basicBulletType
-	damage: 4
-	speed: 2.1
-	lifetime: 40
+	damage: 3
+	speed: 2
+	lifetime: 30
 	frontColor: 84f491
 	backColor: 84f491
 	hitEffect: {
