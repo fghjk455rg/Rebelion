@@ -1,0 +1,62 @@
+name: Striker
+description: X
+type: ItemTurret
+category: turret
+health: 80
+size: 2
+requirements: [
+	graphite/20
+	lead/10
+	selium/600
+]
+outlineColor: 1b1b1e
+
+shootCone: 10
+moveWhileCharging: false
+ammoTypes: {
+	oxide: {
+	type: basicBulletType
+	spawnUnit: striker-missile
+}
+}
+reload: 240
+recoil: 2
+targetAir: false
+shootSound: striker_shot_1
+shootSoundVolume: 0.5
+recoilTime: 40
+rotateSpeed: 1
+coolantMultiplier: 50
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.05
+}
+range: 240
+consumes: {
+	power: 2
+	liquids: [
+		sulfur-gas/0.2
+	]
+}
+drawer: {
+	type: drawTurret
+	basePrefix: bomber-
+}
+
+shoot: {
+	shotDelay: 20
+	shots: 4
+	type: ShootBarrel
+	barrels: [
+	-5, 0, 0,
+	5, 0, 0
+	]
+}
+
+research: {
+parent: gauss
+requirements: [
+	tungsten/1
+]
+}

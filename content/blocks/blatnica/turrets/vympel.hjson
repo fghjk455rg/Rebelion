@@ -5,7 +5,7 @@ category: turret
 health: 100
 size: 2
 requirements: [
-	tungsten/1
+	neosteel/1
 ]
 outlineColor: 1b1b1e
 
@@ -13,39 +13,34 @@ shootCone: 20
 inaccuracy: 10
 moveWhileCharging: false
 ammoTypes: {
-	lead: {
+	oxide: {
 	type: basicBulletType
-	with: 8
-	height: 12
-	lifetime: 12
-	speed: 18
+	with: 100
+	height: 8
+	lifetime: 24
+	speed: 9
 	splashDamage: 6
 	splashDamageRadius: 40
 	hitSound: bullethit
 	shootEffect: shootBigColor
 	smokeEffect: shootBigSmoke
-	hitColor: b7b7d8
-	backColor: 82779b
-	trailColor: b7b7d8
-	trailWidth: 2.1
-	trailLength: 6
+	hitColor: e4ffd6
+	backColor: a4ba7f
+	trailColor: e4ffd6
+	trailWidth: 2
+	trailLength: 2
 	hitEffect: hitBulletColor
 	despawnEffect: hitBulletColor
 	hitEffect: {
-			type: ParticleEffect
-			line: true
-			particles: 4
-			lifetime: 40
+			type: WaveEffect
+			lifetime: 20
+			sizeFrom: 0
+			sizeTo: 20
 			interp: circleOut
-			length: 30
-			cone: -30
+			strokeFrom: 35
 			strokeTo: 0
-			lightColor: b7b7d8
-			lenFrom: 6
-			lenTo: 0
-			strokeFrom: 5
-			colorFrom: ffffff
-			colorTo: b7b7d8
+			colorFrom: a4ba7f
+			colorTo: e4ffd6
 	}
 	}
 }
@@ -65,9 +60,8 @@ coolant: {
   liquid: water
   amount: 0.1
 }
-range: 180
+range: 200
 consumes: {
-	power: 0.2
 	liquids: [
 		sulfur-gas/0.1
 	]
@@ -111,6 +105,6 @@ recoils: 2
 research: {
 parent: gauss
 requirements: [
-	tungsten/1
+	neosteel/1
 ]
 }

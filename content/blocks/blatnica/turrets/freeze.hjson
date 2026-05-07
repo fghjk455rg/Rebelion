@@ -1,0 +1,75 @@
+name: Freeze
+description: X
+type: continuousLiquidTurret
+category: turret
+health: 80
+size: 2
+requirements: [
+	graphite/20
+	lead/10
+	selium/6
+]
+outlineColor: 1b1b1e
+
+shootCone: 10
+moveWhileCharging: false
+ammoTypes: {
+	cryofluid: {
+	type: basicBulletType
+	with: 10
+	height: 16
+	lifetime: 20
+	speed: 6
+	damage: 10
+	hitSound: bullethit
+	splashDamage: 2
+	splashDamageRadius: 1
+	shootEffect: shootBigColor
+	smokeEffect: shootBigSmoke
+	hitColor: b7b7d8
+	backColor: 82779b
+	trailColor: b7b7d8
+	trailWidth: 2.1
+	trailLength: 8
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+	hitEffect: {
+			type: ParticleEffect
+			line: true
+			particles: 6
+			lifetime: 45
+			interp: circleOut
+			length: 40
+			cone: -40
+			strokeTo: 0
+			lightColor: b7b7d8
+			lenFrom: 6
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: ffffff
+			colorTo: b7b7d8
+	}
+	}
+}
+reload: 40
+recoil: 1
+targetAir: true
+loopSound: freeze
+recoilTime: 40
+rotateSpeed: 10
+coolantMultiplier: 50
+range: 120
+consumes: {
+	power: 0.6
+}
+drawer: {
+	type: drawTurret
+	basePrefix: blaster-
+}
+
+research: {
+parent: gauss
+requirements: [
+	tungsten/1
+]
+}

@@ -25,7 +25,8 @@ shots: 2
 inaccuracy: 3
 rotate: false
 reload: 60
-shootSound: shockBlast
+shootSound: smoky_shot
+hitSound: smoky_hit
 ejectEffect: casing2
 layerOffset: -0.002
 bullet: {
