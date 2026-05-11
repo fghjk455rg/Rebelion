@@ -53,7 +53,7 @@ ammoTypes: {
 }
 reload: 40
 recoil: 1
-targetAir: true
+targetAir: false
 loopSound: freeze
 recoilTime: 40
 rotateSpeed: 10

@@ -17,6 +17,8 @@ ammoTypes: {
 	oxide: {
 	type: basicBulletType
 	spawnUnit: striker-missile
+	predictTarget: false
+	bulletSpeed: 1000
 }
 }
 reload: 240
@@ -32,7 +34,8 @@ coolant: {
   liquid: water
   amount: 0.05
 }
-range: 240
+predictTarget: false
+range: 260
 consumes: {
 	power: 2
 	liquids: [
@@ -45,7 +48,7 @@ drawer: {
 }
 
 shoot: {
-	shotDelay: 20
+	shotDelay: 10
 	shots: 4
 	type: ShootBarrel
 	barrels: [

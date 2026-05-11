@@ -4,7 +4,7 @@ type: missile
 health: 20
 speed: 5
 rotateSpeed: 4
-hitSize: 4
+hitSize: 1
 flying: true
 engineOffset: 4
 outlineColor: 1b1b1e
@@ -19,7 +19,6 @@ engineOffset: 7
 trailLength: 12
 deathSound: striker_hit_1
 loopSound: striker_rocket
-
 
 //idk wtf is that
 envEnabled: 17
@@ -65,7 +64,7 @@ weapons: [
           bullet:{
         type: BombBulletType
         splashDamageRadius: 24
-        splashDamage: 20
+        splashDamage: 14
         instantDisappear: true
         killShooter: true
         hittable: false

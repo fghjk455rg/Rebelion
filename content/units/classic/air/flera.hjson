@@ -1,0 +1,50 @@
+name: Flare
+description: X
+health: 20
+speed: 4
+drag: 0.1
+accel: 0.1
+rotateSpeed: 20
+hitSize: 4
+flying: true
+lowAltitude: true
+engineOffset: 4
+lightRadius: 40
+lightColor: ffffff55
+outlineColor: 1b1b1e
+mineRange: 20
+mineTier: 2
+mineSpeed: 1
+mineHardnessScaling: false
+
+weapons: [
+{
+name: flera-weapon
+mirror: false
+inaccuracy: 3
+rotate: false
+reload: 60
+shootSound: smoky_shot
+hitSound: smoky_hit
+ejectEffect: casing2
+layerOffset: -0.002
+bullet: {
+	hitEffect: blastExplosion
+	recoil: 0.1
+	width: 8
+	height: 8
+	type: BombBulletType
+	splashDamage: 6
+	splashDamageRadius: 8
+	lifetime: 120
+	speed: 0.6
+	frontColor: FFFFFFF
+	backColor: 515151
+}
+}
+]
+
+
+research: {
+parent: aer-assembler
+}

@@ -1,0 +1,51 @@
+name: Photo- idk, check wiki
+description: X
+type: GenericCrafter
+category: crafting
+health: 60
+size: 2
+requirements: [
+	neosteel/1
+]
+lightRadius: 8
+lightColor: edb6e2
+
+craftTime: 120
+consumes: {
+	liquids: [
+		sulfur-gas/0.2
+	]
+}
+outputLiquid: hydrogen/0.2
+hasLiquids: true
+craftEffect: {
+	length: 10
+	lifetime: 40
+	particles: 8
+	offset: 45
+	sizeFrom: 4
+	sizeTo: 0
+	colorFrom: ffffff
+	colorTo: ffffff
+}
+
+research: {
+parent: selium-sinthesizer
+requirements: [
+	neosteel/1
+]
+}
+
+squareSprite: false
+drawer: [
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.4
+	glowScale: 5
+	color: ffd6f344
+}
+]

@@ -15,7 +15,7 @@ consumes: {
 }
 plans: [
 {
-	unit: flare
+	unit: flera
 	time: 1200
 	requirements: [
 		niterium/12
