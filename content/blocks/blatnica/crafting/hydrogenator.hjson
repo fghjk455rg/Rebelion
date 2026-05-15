@@ -1,4 +1,4 @@
-name: Photo- idk, check wiki
+name: Photogenator
 description: X
 type: GenericCrafter
 category: crafting
@@ -10,7 +10,6 @@ requirements: [
 lightRadius: 8
 lightColor: edb6e2
 
-craftTime: 120
 consumes: {
 	liquids: [
 		sulfur-gas/0.2
@@ -18,19 +17,8 @@ consumes: {
 }
 outputLiquid: hydrogen/0.2
 hasLiquids: true
-craftEffect: {
-	length: 10
-	lifetime: 40
-	particles: 8
-	offset: 45
-	sizeFrom: 4
-	sizeTo: 0
-	colorFrom: ffffff
-	colorTo: ffffff
-}
-
 research: {
-parent: selium-sinthesizer
+parent: atmosphere-condensator
 requirements: [
 	neosteel/1
 ]

@@ -26,13 +26,15 @@ serrationWidth: 3
 serrationSpacing: 7
 shootEffect: shootBigColor
 smokeEffect: shootBigSmoke
-fromColor: 95abd9
-toColor: 7380ac
+fromColor: edf3a9
+//95abd9
+toColor: 7db664
+//7380ac
 knockback: 4
 buildingDamageMultiplier: 4
 }
 reload: 40
-recoil: 1
+recoil: 2
 targetAir: false
 shootSound: hammer_shot
 recoilTime: 40
@@ -47,19 +49,22 @@ shake: 3
 range: 70
 consumes: {
 	power: 2.0
+	liquids: [
+		sulfur-gas/0.1
+	]
 }
 shootY: 7
 ammoPerShot: 2
 maxAmmo: 8
 drawer: {
 	type: drawTurret
-	basePrefix: blaster-
+	basePrefix: gauss-
 	parts: [
 	{
 		type: regionPart
 		suffix: -barrel
 		progress: recoil
-		moveY: -1.5
+		moveY: -2.5
 		heatColor: f03b0e
 		mirror: false
 	}
@@ -67,7 +72,7 @@ drawer: {
 		type: regionPart
 		suffix: -abarrel
 		progress: recoil
-		moveY: 0.5
+		moveY: 1.5
 		heatColor: f03b0e
 		mirror: false
 	}

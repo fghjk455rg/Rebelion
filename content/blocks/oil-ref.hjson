@@ -1,4 +1,4 @@
-name: Oil Refinery
+name: Cultivator
 description: X
 type: GenericCrafter
 category: crafting
@@ -11,6 +11,7 @@ requirements: [
 ]
 
 craftTime: 120
+//this shit from other shit
 consumes: {
 	liquids: [
 		slag/0.1

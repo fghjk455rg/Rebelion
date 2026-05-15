@@ -5,7 +5,9 @@ category: production
 health: 90
 size: 3
 requirements: [
-	tungsten/1
+	niterium/12
+	titanium/32
+	
 ]
 
 consumes: {
@@ -26,7 +28,8 @@ fogRadius: 3
 research: {
 parent: atmosphere-condensator
 requirements: [
-	tungsten/1
+	niterium/12
+	titanium/32
 ]
 }
 

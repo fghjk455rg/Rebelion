@@ -11,9 +11,7 @@ requirements: [
 ]
 
 consumes: {
-	liquids: [
-		water/0.1
-	]
+	power: 1
 }
 plans: [
 {

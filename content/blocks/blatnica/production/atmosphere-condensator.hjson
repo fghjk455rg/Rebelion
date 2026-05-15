@@ -16,7 +16,6 @@ consumes: {
 	]
 }
 outputLiquid: sulfur-gas/0.2
-ignoreLiquidFullness: true
 attribute: sand
 displayEfficiency: true
 baseEfficiency: 0

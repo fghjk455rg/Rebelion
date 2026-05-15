@@ -1,5 +1,5 @@
 research: {
-parent: neosteel
-//slag
+parent: oil
 planet: ens-mod-blatnica
 }
+alwaysUnlocked: true

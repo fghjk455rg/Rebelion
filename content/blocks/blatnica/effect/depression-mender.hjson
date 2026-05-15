@@ -5,7 +5,7 @@ category: effect
 health: 40
 size: 1
 requirements: [
-	titanium/5
+	titanium/6
 	selium/10
 ]
 lightRadius: 40
@@ -27,7 +27,7 @@ parent: beacon
 objectives: [
 {
 	type: OnSector
-	preset: darkcavern
+	preset: airbase
 }
 ]
 requirements: [

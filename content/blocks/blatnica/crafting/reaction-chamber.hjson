@@ -37,7 +37,7 @@ craftEffect: {
 }
 
 research: {
-parent: selium-sinthesizer
+parent: geothermal-generator
 objectives: [
 {
 	type: OnSector

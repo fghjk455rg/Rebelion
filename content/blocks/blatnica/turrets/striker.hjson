@@ -58,7 +58,7 @@ shoot: {
 }
 
 research: {
-parent: gauss
+parent: bomber
 requirements: [
 	tungsten/1
 ]

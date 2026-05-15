@@ -1,13 +1,13 @@
-sector: 6
+sector: 2
 planet: ens-mod-blatnica
-localizedName: Dark Caves
+localizedName: Airport
 difficulty: 2
 research:{
-parent: acidland
+parent: darkcavern
 objectives: [
 {
 	type: sectorComplete
-	preset: acidland
+	preset: darkcavern
 }]
 }
 alwaysUnlocked: false

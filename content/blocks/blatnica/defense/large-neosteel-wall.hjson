@@ -1,4 +1,4 @@
-name: Large Titanium Wall
+name: Large Neosteel Wall
 description: X
 type: Wall
 category: defense
@@ -6,12 +6,14 @@ health: 760
 size: 2
 requirements: [
 	titanium/32
+	neosteel/6
 ]
 armor: 1
 
 research: {
-parent: titanium-wall
+parent: neosteel-wall
 requirements: [
 	titanium/32
+	neosteel/6
 ]
 }

@@ -5,13 +5,11 @@ category: power
 health: 60
 size: 2
 requirements: [
-	tungsten/1
 	lead/32
-	niterium/24
-	titanium/18
+	niterium/20
+	titanium/14
 ]
 lightRadius: 8
-
 powerProduction: 6
 baseEfficiency: 0
 minEfficiency: 0.25
@@ -40,6 +38,8 @@ generateEffect: {
 	sizeInterp: pow2Out
 	interp: pow2Out
 }
+outputLiquid: nitrogen/0.2
+ignoreLiquidFullness: true
 
 research: {
 parent: arqjk-collector
@@ -50,10 +50,9 @@ objectives: [
 }
 ]
 requirements: [
-	tungsten/1
 	lead/32
-	niterium/24
-	titanium/18
+	niterium/20
+	titanium/14
 ]
 }
 

@@ -68,8 +68,8 @@ drawer: {
 }
 
 research: {
-parent: gauss
+parent: striker
 requirements: [
-	tungsten/1
+	neosteel/1
 ]
 }
