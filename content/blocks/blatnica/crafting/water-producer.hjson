@@ -1,6 +1,6 @@
-name: Reaction Chamber
+name: Water Producer
 description: X
-type: GenericCrafter
+type: AttributeCrafter
 category: crafting
 health: 40
 size: 2
@@ -11,28 +11,32 @@ requirements: [
 lightRadius: 8
 lightColor: edb6e2
 
-craftTime: 240
+craftTime: 120
 consumes: {
 	power: 0.5
 	liquids: [
-		nitrogen/0.2
-	]
-	items: [
-		lead/1
+		arkycite/0.2
+		//sulfur-gas
 	]
 }
-outputItem: niterium/2
+attribute: heat
+baseEfficiency: 0
+minEfficiency: 4
+boostScale: 0.25
+outputLiquid: water/0.1
+ignoreLiquidFullness: true
 hasLiquids: true
 craftEffect: {
-	length: 10
-	lifetime: 40
-	particles: 8
-	region: ring-item
-	offset: 45
-	sizeFrom: 4
-	sizeTo: 0
-	colorFrom: ffffff
-	colorTo: ca8cd1
+	particles: 1
+	length: 50
+	lifetime: 240
+	cone: 12
+	baseRotation: 32
+	sizeFrom: 2
+	sizeTo: 7
+	colorTo: 31313100
+	sizeInterp: pow2Out
+	interp: pow2Out
 }
 
 research: {
@@ -40,12 +44,11 @@ parent: geothermal-generator
 objectives: [
 {
 	type: OnSector
-	preset: coastlineb
+	preset: coastline
 }
 ]
 requirements: [
-	graphite/20
-	lead/10
+	tungsten/1
 ]
 }
 

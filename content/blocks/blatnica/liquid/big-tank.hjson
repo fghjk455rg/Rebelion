@@ -2,22 +2,21 @@ name: Liquid tank
 description: X
 type: LiquidRouter
 category: liquid
-health: 10
-size: 1
+health: 54
+size: 2
 requirements: [
-	graphite/6
-	niterium/8
+	titanium/12
+	niterium/24
 ]
 
-liquidCapacity: 60
-underBullets: true
+liquidCapacity: 540
 solid: false
 
 research: {
-parent: pipe
+parent: tank
 requirements: [
-	graphite/6
-	niterium/8
+	titanium/12
+	niterium/24
 ]
 }
 

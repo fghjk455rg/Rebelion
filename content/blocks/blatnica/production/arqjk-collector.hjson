@@ -27,6 +27,12 @@ fogRadius: 3
 
 research: {
 parent: atmosphere-condensator
+objectives: [
+{
+	type: OnSector
+	preset: airbase
+}
+]
 requirements: [
 	niterium/12
 	titanium/32

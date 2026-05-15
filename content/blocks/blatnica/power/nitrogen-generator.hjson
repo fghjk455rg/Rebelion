@@ -43,12 +43,6 @@ ignoreLiquidFullness: true
 
 research: {
 parent: arqjk-collector
-objectives: [
-{
-	type: OnSector
-	preset: coastline
-}
-]
 requirements: [
 	lead/32
 	niterium/20
