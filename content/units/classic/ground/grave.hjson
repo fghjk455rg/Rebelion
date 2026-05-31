@@ -25,6 +25,9 @@ ejectEffect: casing2
 layerOffset: -0.002
 targetAir: false
 recoil: 2
+
+buildingDamageMultiplier: 2
+
 bullet: {
 	width: 12
 	height: 12
@@ -32,7 +35,7 @@ bullet: {
 	trailLength: 6
 	trailWidth: 2
 	type: basicBulletType
-	damage: 8
+	damage: 6
 	speed: 4
 	lifetime: 20
 	frontColor: b7c8ff

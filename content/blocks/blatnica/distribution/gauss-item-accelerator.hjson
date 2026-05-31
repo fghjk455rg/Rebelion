@@ -25,3 +25,5 @@ requirements: [
 	tungsten/1
 ]
 }
+
+squareSprite: false

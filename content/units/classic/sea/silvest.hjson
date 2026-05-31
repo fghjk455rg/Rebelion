@@ -6,7 +6,7 @@ speed: 0.8
 drag: 0.2
 accel: 0.3
 rotateSpeed: 6
-hitSize: 8
+hitSize: 6
 omniMovement: true
 lightRadius: 80
 lightColor: ffffff55
@@ -28,6 +28,9 @@ shootSound: twins_shot
 ejectEffect: casing1
 targetAir: false
 recoil: 2
+
+buildingDamageMultiplier: 2
+
 bullet: {
 	width: 8
 	height: 8
@@ -35,9 +38,9 @@ bullet: {
 	trailLength: 6
 	trailWidth: 2
 	type: basicBulletType
-	damage: 6
+	damage: 3
 	speed: 2.42
-	lifetime: 50
+	lifetime: 40
 	frontColor: b7c8ff
 	backColor: b7c8ff
 	hitEffect: {

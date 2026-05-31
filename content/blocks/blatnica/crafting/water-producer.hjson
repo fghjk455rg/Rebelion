@@ -15,29 +15,17 @@ craftTime: 120
 consumes: {
 	power: 0.5
 	liquids: [
-		arkycite/0.2
-		//sulfur-gas
+		sulfur-gas/0.2
+		//arkycite
 	]
 }
 attribute: heat
 baseEfficiency: 0
-minEfficiency: 4
-boostScale: 0.25
+minEfficiency: 2
+boostScale: 0.5
 outputLiquid: water/0.1
 ignoreLiquidFullness: true
 hasLiquids: true
-craftEffect: {
-	particles: 1
-	length: 50
-	lifetime: 240
-	cone: 12
-	baseRotation: 32
-	sizeFrom: 2
-	sizeTo: 7
-	colorTo: 31313100
-	sizeInterp: pow2Out
-	interp: pow2Out
-}
 
 research: {
 parent: geothermal-generator
@@ -60,17 +48,22 @@ drawer: [
 }
 {
 	type: DrawLiquidRegion
-	drawLiquid: nitrogen
-	suffix: -liquid
+	drawLiquid: sulfur-gas
+	suffix: -liquid1
 }
 {
-	type: drawParticles
-	color: d4f0ff
-	alpha: 0.6
-	particleSize: 1
-	particles: 30
-	particleRad: 6
-	particleLife: 60
+	type: drawBubbles
+	color: dedd77
+	sides: 10
+	recurrence: 3 
+	spread: 6
+	radius: 1.5
+	amount: 20
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: water
+	suffix: -liquid2
 }
 {
 	type: drawDefault

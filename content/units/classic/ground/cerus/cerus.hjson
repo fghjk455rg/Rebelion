@@ -1,0 +1,121 @@
+name: Cerus
+description: X
+type: legs
+health: 50
+speed: 0.5
+drag: 0.2
+rotateSpeed: 3
+hitSize: 4
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+
+legCount: 6
+legLength: 7
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 0.9
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+
+legMoveSpace: 1
+shadowElevation: 0.2
+hovering: true
+
+buildSpeed: 0.4
+itemCapacity: 40
+mineRange: 40
+mineTier: 5
+mineSpeed: 4
+mineHardnessScaling: false
+
+abilities: [
+{
+	type: RepairFieldAbility
+	radius: 64
+	regen: 20
+	cooldown: 120
+}
+]
+
+weapons: [
+{
+name: citron-weapon
+mirror: true
+x: 1
+y: 0
+rotate: false
+reload: 20
+shootSound: ricochet_shot
+ejectEffect: casing1
+targetAir: false
+recoil: 2
+
+buildingDamageMultiplier: 2
+
+bullet: {
+	width: 10
+	height: 6
+	trailColor: 84f491
+	trailLength: 8
+	trailWidth: 2
+	type: basicBulletType
+	damage: 3
+	speed: 2
+	lifetime: 30
+	frontColor: 84f491
+	backColor: 84f491
+	hitEffect: {
+			type: ParticleEffect
+			particles: 6
+			lifetime: 40
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 20
+			lightColor: 84f491
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: 84f491
+			colorTo: 84f491
+			sizeFrom: 1
+			sizeTo: 0
+	}
+	despawnEffect: {
+			type: ParticleEffect
+			particles: 6
+			lifetime: 60
+			interp: circleOut
+			sizeInterp: pow5In
+			length: 8
+			lightColor: 95abd9
+			lenFrom: 8
+			lenTo: 0
+			strokeFrom: 5
+			colorFrom: 84f491
+			colorTo: 84f491
+			sizeFrom: 2
+			sizeTo: 0
+	}
+}
+}
+]
+research: {
+parent: basis-assembler
+objectives: [
+{
+	type: OnSector
+	preset: darkcavern
+}
+]
+requirements: [
+	graphite/12
+	titanium/8
+	selium/14
+]
+}

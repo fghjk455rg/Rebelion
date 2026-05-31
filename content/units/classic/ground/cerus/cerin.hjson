@@ -1,0 +1,77 @@
+name: Cerin
+description: X
+type: legs
+health: 20
+speed: 0.4
+drag: 0.2
+rotateSpeed: 3
+hitSize: 4
+lightRadius: 86
+lightColor: ffffff55
+outlineColor: 1b1b1e
+
+legCount: 6
+legLength: 7
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 0.9
+legMinLength: 0.2
+legLengthScl: 0.95
+legForwardScl: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+
+legMoveSpace: 1
+shadowElevation: 0.2
+hovering: true
+
+targetAir: false
+
+weapons: [
+{
+name: cerin-weapon
+mirror: false
+x: 0
+y: 0
+shoot: {
+shots: 4
+}
+inaccuracy: 5
+rotate: false
+reload: 80
+shootSound: smoky_shot
+hitSound: smoky_hit
+targetAir: false
+
+velocityRnd: 0.4
+
+bullet: {
+	width: 8
+	height: 8
+	trailColor: b7c8ff
+	trailLength: 8
+	trailWidth: 2
+	type: artilleryBulletType
+	damage: 4
+	speed: 2
+	lifetime: 60
+	frontColor: FFFFFFF
+	backColor: b7c8ff
+	hitEffect: blastExplosion
+}
+}
+]
+research: {
+parent: cerus
+objectives: [
+{
+	type: OnSector
+	preset: darkcavern
+}
+]
+requirements: [
+	tungsten/1
+]
+}

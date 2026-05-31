@@ -5,7 +5,7 @@ category: power
 health: 6
 size: 1
 requirements: [
-	lead/10
+	lead/6
 	niterium/4
 ]
 lightRadius: 10
@@ -24,7 +24,7 @@ objectives: [
 }
 ]
 requirements: [
-	lead/10
+	lead/6
 	niterium/4
 ]
 }

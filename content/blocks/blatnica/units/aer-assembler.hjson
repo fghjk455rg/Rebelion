@@ -26,7 +26,7 @@ plans: [
 ]
 
 research: {
-parent: colonist
+parent: basis-assembler
 objectives: [
 {
 	type: OnSector

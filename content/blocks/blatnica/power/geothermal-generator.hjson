@@ -21,8 +21,8 @@ outputLiquid: nitrogen/0.2
 research: {
 parent: core-colony
 requirements: [
-	graphite/16
-	lead/20
+	graphite/8
+	lead/10
 ]
 }
 

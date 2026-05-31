@@ -16,3 +16,5 @@ requirements: [
 	niterium/3
 ]
 }
+
+squareSprite: false

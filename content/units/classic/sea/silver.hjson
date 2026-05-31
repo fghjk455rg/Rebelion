@@ -1,0 +1,71 @@
+name: Silver
+description: X
+type: naval
+health: 60
+speed: 0.7
+drag: 0.2
+accel: 0.3
+rotateSpeed: 5
+hitSize: 6
+omniMovement: true
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+faceTarget: false
+targetAir: false
+
+
+trailLength: 8
+
+
+weapons: [
+{
+name: silver-weapon
+mirror: false
+x: 0
+y: 0
+shoot: {
+shotDelay: 5
+shots: 3
+}
+inaccuracy: 5
+rotate: true
+reload: 80
+shootSound: smoky_shot
+hitSound: smoky_hit
+ejectEffect: casing1
+targetAir: false
+recoil: 2
+
+velocityRnd: 0.4
+
+bullet: {
+	hitEffect: blastExplosion
+	width: 8
+	height: 8
+	trailColor: 515151
+	trailLength: 6
+	trailWidth: 2
+	type: artilleryBulletType
+	damage: 0
+	splashDamage: 4
+	splashDamageRadius: 16
+	speed: 2
+	lifetime: 40
+	frontColor: FFFFFFF
+	backColor: 515151
+}
+}
+]
+research: {
+parent: silvest
+objectives: [
+{
+	type: OnSector
+	preset: acidland
+}
+]
+requirements: [
+	tungsten/1
+]
+}

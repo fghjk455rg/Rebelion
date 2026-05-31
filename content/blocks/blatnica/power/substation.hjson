@@ -12,7 +12,7 @@ lightRadius: 6
 fogRadius: 1
 
 maxNodes: 12
-laserRange: 5
+laserRange: 6
 laserColor1: ffffff
 laserColor2: b7c8ff
 

@@ -15,7 +15,7 @@ fogRadius: 20
 isFirstTier: true
 unitType: colonist
 itemCapacity: 800
-unitCapModifier: 8
+unitCapModifier: 12
 
 research: {
 	root: true

@@ -5,9 +5,9 @@ category: production
 health: 80
 size: 3
 requirements: [
-	graphite/34
-	selium/18
-	niterium/22
+	graphite/26
+	selium/10
+	niterium/12
 ]
 lightRadius: 12
 
@@ -118,9 +118,9 @@ objectives: [
 }
 ]
 requirements: [
-	graphite/34
-	selium/18
-	niterium/22
+	graphite/26
+	selium/10
+	niterium/12
 ]
 }
 drillsound: smoky_hit

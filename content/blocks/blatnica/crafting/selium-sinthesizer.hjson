@@ -29,8 +29,8 @@ hasLiquids: true
 research: {
 parent: atmosphere-condensator
 requirements: [
-	graphite/18
-	lead/16
+	graphite/4
+	lead/6
 ]
 }
 

@@ -5,8 +5,8 @@ category: power
 health: 60
 size: 2
 requirements: [
-	lead/32
-	niterium/20
+	lead/28
+	niterium/8
 	titanium/14
 ]
 lightRadius: 8
@@ -44,8 +44,8 @@ ignoreLiquidFullness: true
 research: {
 parent: arqjk-collector
 requirements: [
-	lead/32
-	niterium/20
+	lead/28
+	niterium/8
 	titanium/14
 ]
 }

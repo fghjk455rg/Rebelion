@@ -11,6 +11,8 @@ requirements: [
 ]
 outlineColor: 1b1b1e
 
+velocityRnd: 0.2
+
 shootCone: 20
 inaccuracy: 8
 moveWhileCharging: false
@@ -20,7 +22,7 @@ ammoTypes: {
 	with: 100
 	height: 8
 	lifetime: 24
-	speed: 8
+	speed: 9
 	splashDamage: 6
 	splashDamageRadius: 40
 	hitSound: bullethit
@@ -29,6 +31,9 @@ ammoTypes: {
 	hitColor: b7b7d8
 	backColor: 82779b
 	trailColor: b7b7d8
+
+//velocityRnd: 150
+
 //hitColor: e4ffd6
 //backColor: a4ba7f
 //trailColor: e4ffd6
@@ -45,8 +50,8 @@ ammoTypes: {
 			interp: circleOut
 			strokeFrom: 35
 			strokeTo: 0
-			colorFrom: ffffff
-			colorTo: b7b7d8
+			colorFrom: ffffff55
+			colorTo: b7b7d855
 		//colorFrom: a4ba7f
 		//colorTo: e4ffd6
 	}

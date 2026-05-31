@@ -16,3 +16,5 @@ requirements: [
 	lead/2
 ]
 }
+
+squareSprite: false

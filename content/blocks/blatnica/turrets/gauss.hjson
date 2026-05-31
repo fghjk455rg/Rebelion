@@ -129,8 +129,8 @@ drawer: {
 research: {
 parent: selium-sinthesizer
 requirements: [
-	graphite/22
-	lead/12
-	selium/6
+	graphite/12
+	lead/10
+	selium/2
 ]
 }

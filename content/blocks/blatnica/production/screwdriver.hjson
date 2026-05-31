@@ -28,7 +28,7 @@ consumes: {
 research: {
 parent: geothermal-generator
 requirements: [
-	graphite/12
+	graphite/6
 	lead/6
 ]
 }

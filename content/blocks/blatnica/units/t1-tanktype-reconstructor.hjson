@@ -1,0 +1,36 @@
+name: TankType Reconstructor
+description: X
+type: Reconstructor
+category: units
+health: 80
+size: 2
+requirements: [
+	titanium/18
+	lead/10
+	selium/14
+]
+
+consumes: {
+	liquids: [
+		water/0.1
+	]
+	items: [
+		tungsten/1
+	]
+}
+constructTime: 1200
+upgrades: [
+	[silvest, silver]
+	[cerus, cerin]
+]
+
+research: {
+parent: basis-assembler
+requirements: [
+	titanium/18
+	lead/10
+	selium/14
+]
+}
+
+squareSprite: false

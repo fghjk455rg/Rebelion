@@ -5,7 +5,7 @@ category: power
 health: 40
 size: 2
 requirements: [
-	lead/12
+	lead/10
 	titanium/12
 	niterium/6
 ]
@@ -26,7 +26,7 @@ consumes: {
 research: {
 parent: transmitter
 requirements: [
-	lead/12
+	lead/10
 	titanium/12
 	niterium/6
 ]

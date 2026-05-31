@@ -31,7 +31,7 @@ plans: [
 	]
 }
 {
-	unit: citron
+	unit: cerus
 	time: 2400
 	requirements: [
 		graphite/12
@@ -42,7 +42,7 @@ plans: [
 ]
 
 research: {
-parent: colonist
+parent: selium-sinthesizer
 objectives: [
 {
 	type: OnSector

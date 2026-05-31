@@ -26,8 +26,3 @@ mineRange: 50
 mineTier: 5
 mineSpeed: 4
 mineHardnessScaling: false
-
-research: {
-parent: core-colony
-}
-alwaysUnlocked: true
