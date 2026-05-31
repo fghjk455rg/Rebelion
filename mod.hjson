@@ -1,11 +1,11 @@
 name: ens-mod
 displayName: Rebelion
-author: "Enless and many people in my lfe"
+author: "Enless"
 description: "Add new campaign on 3 planets (still WIP:)\n
 The mod is focused on a difficulty slightly higher than the main game and follows the game design principles of the original Mindustry\n
-Currently, the mod contains 4 sectors of the first of three planets. The development is delayed, but it has not been abandoned. I hope to complete the first sector of the second planet by 2027, which is planned to follow the seventh sector of the first planet.\n
+Currently, the mod contains 6 sectors of the first of three planets. The development is delayed, but it has not been abandoned. I hope to complete the first sector of the second planet by 2027, which is planned to follow the 10 sector of the first planet.\n
 Please rate me on github!"
-version: a.1.4.5
+version: a.1.5.1
 minGameVersion: 157
 hidden: false
 hideBrowser: false

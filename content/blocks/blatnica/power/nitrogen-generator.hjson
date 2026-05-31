@@ -42,7 +42,7 @@ outputLiquid: nitrogen/0.2
 ignoreLiquidFullness: true
 
 research: {
-parent: arqjk-collector
+parent: substation
 requirements: [
 	lead/28
 	niterium/8

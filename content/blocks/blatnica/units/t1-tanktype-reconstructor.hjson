@@ -27,9 +27,7 @@ upgrades: [
 research: {
 parent: basis-assembler
 requirements: [
-	titanium/18
-	lead/10
-	selium/14
+	tungsten/1
 ]
 }
 

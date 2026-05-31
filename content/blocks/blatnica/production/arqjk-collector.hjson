@@ -26,7 +26,7 @@ liquidCapacity: 10
 fogRadius: 3
 
 research: {
-parent: atmosphere-condensator
+parent: bblast-drill
 objectives: [
 {
 	type: OnSector

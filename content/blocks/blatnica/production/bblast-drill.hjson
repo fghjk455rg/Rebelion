@@ -110,7 +110,7 @@ blockedItem: graphite
 hasLiquids: true
 
 research: {
-parent: screwdriver
+parent: atmosphere-condensator
 objectives: [
 {
 	type: OnSector

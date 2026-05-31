@@ -13,6 +13,7 @@ displayedSpeed: 4.2
 buildCostMultiplier: 2
 junctionReplacement: ens-mod-beltx
 bridgeReplacement: ens-mod-beltbridge
+pushUnits: false
 
 research: {
 parent: screwdriver

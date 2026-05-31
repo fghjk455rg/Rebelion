@@ -28,7 +28,7 @@ ignoreLiquidFullness: true
 hasLiquids: true
 
 research: {
-parent: geothermal-generator
+parent: atmosphere-condensator
 objectives: [
 {
 	type: OnSector

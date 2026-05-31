@@ -1,0 +1,28 @@
+name: Core: "Avanpost"
+description: X
+type: CoreBlock
+category: effect
+health: 200
+size: 3
+requirements: [
+	graphite/180
+	lead/140
+	selium/40
+]
+lightRadius: 40
+fogRadius: 20
+
+unitType: colonist
+itemCapacity: 600
+unitCapModifier: 4
+
+research: {
+parent: core-colony
+requirements: [
+	graphite/180
+	lead/140
+	selium/40
+]
+}
+
+squareSprite: false

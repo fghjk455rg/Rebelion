@@ -112,7 +112,7 @@ craftEffect: [
 hasLiquids: true
 
 research: {
-parent: blast-drill
+parent: bblast-drill
 requirements: [
 	tungsten/1
 ]

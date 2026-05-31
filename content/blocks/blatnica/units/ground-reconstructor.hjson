@@ -22,11 +22,4 @@ upgrades: [
 	[grounder, grave]
 ]
 
-research: {
-parent: basis-assembler
-requirements: [
-	tungsten/1
-]
-}
-
 squareSprite: false
