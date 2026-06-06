@@ -1,0 +1,59 @@
+name: Plastanium Pressurizer
+description: X
+type: GenericCrafter
+category: crafting
+health: 80
+size: 2
+requirements: [
+	tungsten/1
+]
+lightRadius: 10
+lightColor: dbc652
+
+craftTime: 480
+consumes: {
+	power: 1
+	liquids: [
+		nitrogen/0.4
+		biomass/1.2
+	]
+	items: [
+		titanium/1
+	]
+}
+outputItem: plastanium/2
+hasLiquids: true
+
+research: {
+parent: cultivatator
+requirements: [
+	tungsten/1
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{	
+        type: DrawPistons
+        suffix: -piston
+        sinMag: 1.4
+        sinScl: 3.8
+	sideOffset: 3.14
+        sides: 8
+}
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.3
+	glowScale: 5
+	color: fffae830
+}
+]

@@ -1,0 +1,15 @@
+type: liquid
+name: Spore Mass
+cache: water
+color: 	bc5452
+flammability: 0.2
+temperature: 0.5
+viscosity: 0.4
+explosiveness: 0.2
+coolant: false
+blockReactive: true
+effect: corroded
+research: {
+parent: arkycite
+planet: ens-mod-blatnica
+}

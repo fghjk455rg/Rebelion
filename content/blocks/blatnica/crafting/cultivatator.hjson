@@ -1,0 +1,80 @@
+name: Cultivator
+description: X
+type: GenericCrafter
+category: crafting
+health: 60
+size: 2
+requirements: [
+	tungsten/1
+]
+lightRadius: 8
+lightColor: dbc652
+
+craftTime: 240
+consumes: {
+	power: 0.4
+	liquids: [
+		water/0.4
+		arkycite/0.2
+	]
+}
+outputLiquid: biomass/0.8
+hasLiquids: true
+
+research: {
+parent: arqjk-collector
+requirements: [
+	tungsten/1
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+	suffix: -bottom
+}
+{
+	type: DrawLiquidRegion
+	drawLiquid: biomass
+	suffix: -liquid
+}
+{
+	type: drawParticles
+	color: bc5452
+	alpha: 1
+	particleSize: 1.6
+	particles: 20
+	particleRad: 8
+	particleLife: 1400
+}
+{
+	type: drawParticles
+	color: ea8878
+	alpha: 1
+	particleSize: 1.2
+	particles: 20
+	particleRad: 8
+	particleLife: 1200
+}
+{
+	type: drawParticles
+	color: ffae7c
+	alpha: 1
+	particleSize: 0.7
+	particles: 40
+	particleRad: 8
+	particleLife: 1000
+}
+{
+	type: drawDefault
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.3
+	glowScale: 5
+	color: fffae830
+}
+]
