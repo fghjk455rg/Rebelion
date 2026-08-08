@@ -1,4 +1,4 @@
-name: TankType Reconstructor
+name: ArtilleryType Reconstructor
 description: X
 type: Reconstructor
 category: units
@@ -20,11 +20,11 @@ consumes: {
 }
 constructTime: 1200
 upgrades: [
-	[silvest, silver]
+	[cerus, cerin]
 ]
 
 research: {
-parent: basis-assembler
+parent: t1-tanktype-reconstructor
 requirements: [
 	tungsten/1
 ]

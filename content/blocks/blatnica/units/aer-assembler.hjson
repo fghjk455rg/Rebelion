@@ -26,13 +26,6 @@ plans: [
 ]
 
 research: {
-parent: basis-assembler
-objectives: [
-{
-	type: OnSector
-	preset: coastlineb
-}
-]
 requirements: [
 	tungsten/1
 ]

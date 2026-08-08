@@ -9,6 +9,8 @@ requirements: [
 	selium/20
 	titanium/20
 ]
+lightRadius: 40
+lightColor: ffae7c
 
 craftTime: 480
 consumes: {

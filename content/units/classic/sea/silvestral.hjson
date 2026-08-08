@@ -1,29 +1,30 @@
-name: Silvest
+name: Silvestral
 description: X
 type: naval
-health: 40
-speed: 0.8
+health: 70
+speed: 0.5
 drag: 0.2
 accel: 0.3
-rotateSpeed: 6
+rotateSpeed: 4
 hitSize: 6
 omniMovement: true
 lightRadius: 80
 lightColor: ffffff55
 outlineColor: 1b1b1e
 faceTarget: false
+targetAir: false
 
-trailLength: 10
+trailLength: 14
 
 
 weapons: [
 {
-name: silvest-weapon
+name: silvestral-weapon
 mirror: false
 x: 0
-y: 0
+y: 1.5
 rotate: true
-reload: 40
+reload: 90
 shootSound: twins_shot
 ejectEffect: casing1
 targetAir: false
@@ -32,15 +33,15 @@ recoil: 1
 buildingDamageMultiplier: 2
 
 bullet: {
-	width: 8
-	height: 8
+	width: 10
+	height: 10
 	trailColor: b7c8ff
-	trailLength: 6
+	trailLength: 8
 	trailWidth: 2
 	type: basicBulletType
-	damage: 3
-	speed: 2.42
-	lifetime: 40
+	damage: 8
+	speed: 2
+	lifetime: 80
 	frontColor: b7c8ff
 	backColor: b7c8ff
 	hitEffect: {
@@ -79,7 +80,7 @@ bullet: {
 }
 ]
 research: {
-parent: basis-assembler
+parent: silvest
 objectives: [
 {
 	type: OnSector
@@ -87,7 +88,6 @@ objectives: [
 }
 ]
 requirements: [
-	niterium/10
-	selium/10
+	tungsten/1
 ]
 }

@@ -13,7 +13,7 @@ requirements: [
 outlineColor: 1b1b1e
 
 shootCone: 10
-inaccuracy: 6
+inaccuracy: 5
 ammoTypes: {
 	niterium: {
 	type: artilleryBulletType
@@ -181,6 +181,8 @@ shoot: {
 	-5, 0, 0,
 	5, 0, 0
 	]
+	shotDelay: 20
+	shots: 3
 }
 recoils: 3
 

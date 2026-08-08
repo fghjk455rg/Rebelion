@@ -1,11 +1,11 @@
-name: Silver
+name: Silverside
 description: X
 type: naval
-health: 60
-speed: 0.7
+health: 90
+speed: 0.6
 drag: 0.2
 accel: 0.3
-rotateSpeed: 5
+rotateSpeed: 6
 hitSize: 6
 omniMovement: true
 lightRadius: 80
@@ -20,22 +20,22 @@ trailLength: 8
 
 weapons: [
 {
-name: silver-weapon
+name: silverside-weapon
 mirror: false
 x: 0
 y: 0
 shoot: {
 shotDelay: 5
-shots: 3
+shots: 4
 }
-inaccuracy: 5
+inaccuracy: 4
 rotate: true
-reload: 80
+reload: 70
 shootSound: smoky_shot
 hitSound: smoky_hit
 ejectEffect: casing1
 targetAir: false
-recoil: 1.5
+recoil: 1
 
 velocityRnd: 0.4
 
@@ -49,16 +49,16 @@ bullet: {
 	type: artilleryBulletType
 	damage: 0
 	splashDamage: 4
-	splashDamageRadius: 16
-	speed: 2
-	lifetime: 40
+	splashDamageRadius: 20
+	speed: 2.5
+	lifetime: 50
 	frontColor: FFFFFFF
 	backColor: 515151
 }
 }
 ]
 research: {
-parent: silvest
+parent: silver
 objectives: [
 {
 	type: OnSector

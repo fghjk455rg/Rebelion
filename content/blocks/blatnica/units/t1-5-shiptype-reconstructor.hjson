@@ -1,13 +1,11 @@
-name: TankType Reconstructor
+name: 1.5 Shiptype Reconstructor
 description: X
 type: Reconstructor
 category: units
 health: 80
 size: 2
 requirements: [
-	titanium/18
-	lead/10
-	selium/14
+	tungsten/1
 ]
 
 consumes: {
@@ -20,11 +18,12 @@ consumes: {
 }
 constructTime: 1200
 upgrades: [
-	[silvest, silver]
+	[silvest, silvestral]
+	[silver, silverside]
 ]
 
 research: {
-parent: basis-assembler
+parent: silvest
 requirements: [
 	tungsten/1
 ]
