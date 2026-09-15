@@ -12,7 +12,7 @@ requirements: [
 lightRadius: 40
 fogRadius: 20
 
-unitType: colonist
+unitType: gard
 itemCapacity: 600
 unitCapModifier: 4
 

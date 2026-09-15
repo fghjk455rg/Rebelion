@@ -93,3 +93,4 @@ requirements: [
 	selium/16
 ]
 }
+squareSprite: false

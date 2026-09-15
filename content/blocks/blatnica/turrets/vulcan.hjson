@@ -201,3 +201,5 @@ requirements: [
 	niterium/24
 ]
 }
+
+squareSprite: false

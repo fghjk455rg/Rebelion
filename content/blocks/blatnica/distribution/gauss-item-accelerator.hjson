@@ -5,7 +5,9 @@ category: distribution
 health: 80
 size: 2
 requirements: [
-	tungsten/1
+	graphite/20
+	titanium/8
+	selium/6
 ]
 
 range: 200
@@ -21,8 +23,16 @@ knockback: 2
 
 research: {
 parent: strong-belt
+objectives: [
+{
+	type: OnCapture
+	preset: airbase
+}
+]
 requirements: [
-	tungsten/1
+	graphite/20
+	titanium/8
+	selium/6
 ]
 }
 

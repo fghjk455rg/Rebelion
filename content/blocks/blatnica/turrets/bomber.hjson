@@ -160,3 +160,5 @@ requirements: [
 	niterium/14
 ]
 }
+
+squareSprite: false

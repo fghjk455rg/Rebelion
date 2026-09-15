@@ -2,30 +2,23 @@ name: Transmitter
 description: X
 type: PowerNode
 category: power
-health: 6
-size: 1
+health: 20
+size: 2
 requirements: [
 	lead/6
 	niterium/4
 ]
-lightRadius: 10
+lightRadius: 20
 
-maxNodes: 4
-laserRange: 14
+maxNodes: 2
+laserRange: 60
 laserColor1: ffffff
-laserColor2: ffb7fc
+laserColor2: cccccc
 
 research: {
-parent: substation
-objectives: [
-{
-	type: OnSector
-	preset: acidland
-}
-]
+parent: transmitter
 requirements: [
-	lead/6
-	niterium/4
+	tungsten/1
 ]
 }
 

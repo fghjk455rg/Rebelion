@@ -5,8 +5,8 @@ category: distribution
 health: 16
 size: 1
 requirements: [
-	graphite/6
-	lead/6
+	graphite/4
+	lead/4
 ]
 
 range: 4

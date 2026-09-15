@@ -6,7 +6,7 @@ health: 16
 size: 1
 requirements: [
 	graphite/4
-	niterium/6
+	niterium/4
 ]
 
 range: 5

@@ -43,6 +43,12 @@ ignoreLiquidFullness: true
 
 research: {
 parent: substation
+objectives: [
+{
+	type: OnSector
+	preset: airbase
+}
+]
 requirements: [
 	lead/28
 	niterium/8

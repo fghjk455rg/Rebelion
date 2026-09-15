@@ -134,3 +134,5 @@ requirements: [
 	selium/2
 ]
 }
+
+squareSprite: false

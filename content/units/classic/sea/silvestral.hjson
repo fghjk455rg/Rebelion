@@ -33,49 +33,67 @@ recoil: 1
 buildingDamageMultiplier: 2
 
 bullet: {
-	width: 10
-	height: 10
-	trailColor: b7c8ff
+
+	buildingDamageMultiplier: 2
+
+	width: 12
+	height: 12
+	trailColor: ffae7c
 	trailLength: 8
 	trailWidth: 2
 	type: basicBulletType
 	damage: 8
-	speed: 2
-	lifetime: 80
-	frontColor: b7c8ff
-	backColor: b7c8ff
-	hitEffect: {
+	speed: 1.4
+	lifetime: 90
+	frontColor: ffae7c
+	backColor: ffae7c
+	hitEffect: [
+	{
 			type: ParticleEffect
-			particles: 6
+			particles: 8
 			lifetime: 40
 			interp: circleOut
 			sizeInterp: pow5In
-			length: 20
+			length: 30
 			lightColor: 95abd9
 			lenFrom: 8
 			lenTo: 0
 			strokeFrom: 5
-			colorFrom: b7c8ff
-			colorTo: b7c8ff
+			colorFrom: ffae7c
+			colorTo: ffae7c
 			sizeFrom: 1
 			sizeTo: 0
 	}
-	despawnEffect: {
+	{
+			type: WaveEffect
+			lifetime: 20
+			sizeFrom: 0
+			sizeTo: 10
+			interp: circleOut
+			strokeFrom: 35
+			strokeTo: 0
+			colorFrom: ffae7c55
+			colorTo: ffae7c55
+	}
+	]
+	despawnEffect: [
+	{
 			type: ParticleEffect
-			particles: 3
-			lifetime: 60
+			particles: 5
+			lifetime: 30
 			interp: circleOut
 			sizeInterp: pow5In
 			length: 10
 			lightColor: 95abd9
-			lenFrom: 8
+			lenFrom: 4
 			lenTo: 0
-			strokeFrom: 5
-			colorFrom: b7c8ff
-			colorTo: b7c8ff
+			strokeFrom: 3
+			colorFrom: ffae7c
+			colorTo: ffae7c
 			sizeFrom: 2
 			sizeTo: 0
 	}
+	]
 }
 }
 ]

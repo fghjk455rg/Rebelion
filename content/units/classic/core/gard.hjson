@@ -1,0 +1,76 @@
+name: Gard
+description: X
+type: legs
+health: 40
+speed: 1.4
+drag: 0.2
+rotateSpeed: 10
+hitSize: 4
+lightRadius: 80
+lightColor: ffffff55
+outlineColor: 1b1b1e
+
+fogRadius: 0
+coreUnitDock: true
+targetPriority: -2
+targetable: true
+hittable: true
+
+buildSpeed: 0.5
+itemCapacity: 40
+mineRange: 60
+mineTier: 5
+mineSpeed: 5
+mineHardnessScaling: false
+
+legCount: 4
+legLength: 7
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 0.9
+legMinLength: 0.2
+legLengthScl: 0.9
+legForwardScl: 1.2
+legGroupSize: 3
+rippleScale: 0.2
+
+legMoveSpace: 1.2
+shadowElevation: 0.2
+hovering: true
+
+weapons: [
+{
+name: gard-weapon
+mirror: true
+x: 1
+y: 0
+inaccuracy: 3
+rotate: false
+reload: 30
+shootSound: smoky_shot
+hitSound: smoky_hit
+ejectEffect: casing1
+targetAir: false
+recoil: 2
+
+bullet: {
+
+	buildingDamageMultiplier: 0.5
+
+	recoil: 0.1
+	width: 8
+	height: 8
+	trailColor: 515151
+	trailLength: 8
+	trailWidth: 2
+	type: basicBulletType
+	damage: 4
+	speed: 3
+	lifetime: 20
+	frontColor: FFFFFFF
+	backColor: 515151
+}
+}
+]
