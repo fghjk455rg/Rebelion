@@ -27,7 +27,7 @@ parent: beacon
 objectives: [
 {
 	type: OnSector
-	preset: airbase
+	preset: darkcavern
 }
 ]
 requirements: [

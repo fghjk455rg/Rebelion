@@ -1,30 +1,30 @@
-name: TankType Reconstructor
+name: AttackType Reconstructor
 description: X
 type: Reconstructor
 category: units
 health: 80
 size: 2
 requirements: [
-	titanium/12
-	lead/12
-	selium/16
+	graphite/20
+	niterium/8
+	selium/14
 ]
 
 consumes: {
 	liquids: [
-		water/0.1
+		sulfur-gas/0.1
 	]
 	items: [
-		titanium/12
+		niterium/10
 	]
 }
 constructTime: 1800
 upgrades: [
-	[silvest, silver]
+	[silvest, silvestral]
 ]
 
 research: {
-parent: t1-attacktype-reconstructor
+parent: basis-assembler
 requirements: [
 	tungsten/1
 ]
