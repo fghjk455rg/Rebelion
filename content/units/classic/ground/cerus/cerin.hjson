@@ -46,7 +46,6 @@ shootSoundVolume: 2
 hitSound: orbhit
 despawnSound: orbhit
 targetAir: false
-damage: 4
 
 velocityRnd: 0.4
 
@@ -57,7 +56,8 @@ bullet: {
 	trailLength: 8
 	trailWidth: 2
 	type: artilleryBulletType
-	damage: 4
+	splashDamage: 4
+	splashDamageRadius: 8
 	speed: 2
 	lifetime: 60
 	frontColor: FFFFFFF
