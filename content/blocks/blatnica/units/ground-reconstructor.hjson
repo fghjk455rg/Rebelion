@@ -14,7 +14,7 @@ consumes: {
 		water/0.1
 	]
 	items: [
-		tungsten/1
+		titanium/10
 	]
 }
 constructTime: 1200

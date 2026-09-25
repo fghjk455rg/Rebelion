@@ -2,12 +2,12 @@ name: ArtilleryType Reconstructor
 description: X
 type: Reconstructor
 category: units
-health: 80
+health: 70
 size: 2
 requirements: [
-	titanium/18
-	lead/10
-	selium/14
+	graphite/20
+	lead/12
+	selium/20
 ]
 
 consumes: {
@@ -15,10 +15,10 @@ consumes: {
 		water/0.1
 	]
 	items: [
-		tungsten/1
+		selium/8
 	]
 }
-constructTime: 1200
+constructTime: 1800
 upgrades: [
 	[cerus, cerin]
 ]

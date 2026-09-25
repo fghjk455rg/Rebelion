@@ -44,63 +44,6 @@ updateLighting: false
 
     landCloudColor: edf3a9
 
-//9ef0ff
-
-cloudMesh: {
-
-  type: HexSkyMesh
-
-  planet: blatnica
-  seed: 2
-
-  speed: 3
-
-  radius: 0.2
-
-  divisions: 5
-
-  color: edf3a9
-
-  octaves: 2
-
-  persistence: 1
-
-  scl: 2
-
-  thresh: 0.45
-
-bloom: false
-
-}
-
-cloudMesh: {
-
-  type: HexSkyMesh
-
-  planet: blatnica
-
-  seed: 4
-
-  speed: 2
-
-  radius: 0.19
-
-  divisions: 5
-
-  color: edf3a9
-
-  octaves: 2
-
-  persistence: 1
-
-  scl: 2
-
-  thresh: 0.45
-
-bloom: false
-
-}
-
    mesh: {
 
       type: NoiseMesh

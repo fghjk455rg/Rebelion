@@ -5,9 +5,9 @@ category: units
 health: 80
 size: 2
 requirements: [
-	titanium/18
-	lead/10
-	selium/14
+	titanium/12
+	lead/12
+	selium/16
 ]
 
 consumes: {
@@ -15,10 +15,10 @@ consumes: {
 		water/0.1
 	]
 	items: [
-		tungsten/1
+		titanium/12
 	]
 }
-constructTime: 1200
+constructTime: 1800
 upgrades: [
 	[silvest, silver]
 ]

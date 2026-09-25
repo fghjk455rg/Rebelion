@@ -6,8 +6,8 @@ health: 60
 size: 2
 requirements: [
 	graphite/20
-	lead/16
-	selium/18
+	lead/10
+	selium/14
 ]
 
 consumes: {
