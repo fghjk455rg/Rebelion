@@ -1,0 +1,55 @@
+type: crawl
+health: 360
+flying: false
+range: 140
+speed: 1.6
+armor: 2
+hitsize: 14
+omniMovement: false
+rotateSpeed: 5
+drownTimeMultiplier: 0.5
+segments: 3
+drawBody: false
+drawCell: false
+crushDamage: 0.5
+controller: HugAI
+segmentScl:3
+segmentPhase: 3
+segmentMag: 0.5
+envEnabled: 17
+envDisabled: 0
+mineTier: 3
+mineSpeed: 2
+buildSpeed: 0.5
+buildBeamOffset: 0
+itemCapacity: 10
+
+weapons: [
+{
+heatColor: 89ff98
+name: lizard-gun
+type: RepairBeamWeapon
+widthSinMag: 0.11
+reload: 20
+x: 0
+y: 0
+rotate: true
+shootY: 0
+beamWidth: 0.84
+aimDst: 0
+mirror: false
+repairSpeed: 3
+fractionRepairSpeed: 0.1
+targetUnits: false
+targetBuildings: true
+autoTarget: true
+controllable: false
+laserColor: 84f491
+healColor: 84f491
+
+bullet: {
+    type: BulletType
+    maxRange: 60
+    }
+}
+]
