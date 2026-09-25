@@ -1,6 +1,6 @@
-name: Flere
+name: Drone
 description: X
-health: 20
+health: 10
 speed: 4
 drag: 0.1
 accel: 0.1
@@ -21,7 +21,7 @@ name: flera-weapon
 mirror: false
 inaccuracy: 4
 rotate: false
-reload: 60
+reload: 80
 shootSound: shootSap
 //shootSegment
 ejectEffect: casing2
@@ -32,9 +32,9 @@ bullet: {
 	width: 8
 	height: 8
 	type: basicBulletType
-	splashDamage: 4
+	splashDamage: 3
 	splashDamageRadius: 8
-	lifetime: 120
+	lifetime: 100
 	speed: 1
 	frontColor: FFFFFFF
 	backColor: 515151

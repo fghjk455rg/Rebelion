@@ -1,11 +1,11 @@
-name: Grounder
+name: Grandar
 description: X
 type: mech
-health: 80
-speed: 0.8
+health: 60
+speed: 1
 drag: 0.2
 accel: 0.1
-rotateSpeed: 3
+rotateSpeed: 4
 hitSize: 4
 omniMovement: true
 lightRadius: 80
@@ -14,50 +14,49 @@ outlineColor: 1b1b1e
 
 weapons: [
 {
-name: grounder-weapon
+name: grandar-weapon
 mirror: true
-x: 4.2
-y: 1.2
-shoot: {
-shotDelay: 10
-shots: 2
-}
+x: 3.6
+y: 0.4
+alternate: false
 inaccuracy: 3
 rotate: false
-reload: 80
-shootSound: smoky_shot
+reload: 10
+shootSound: enemytankgun
 hitSound: smoky_hit
 ejectEffect: casing2
 layerOffset: -0.002
+shootStatus: slow
+shootStatusDuration: 40
 bullet: {
 	hitEffect: blastExplosion
 	recoil: 0.1
-	width: 8
-	height: 8
-	trailColor: 515151
+	trailColor: ffa665
 	trailLength: 6
 	trailWidth: 2
-	type: basicBulletType
-	splashDamage: 3
-	splashDamageRadius: 8
-	lifetime: 30
-	speed: 3.5
+	type: laserBoltBulletType
+	damage: 2
+	lifetime: 16
+	speed: 8
 	frontColor: FFFFFFF
-	backColor: 515151
+	backColor: ffa665
+	hitEffect: blastExplosion
+	despawnEffect: blastExplosion
 }
 }
 ]
 
 research: {
-parent: basis-assembler
+parent: grounder
 objectives: [
 {
 	type: OnSector
-	preset: coastlineb
+	preset: airbase
 }
 ]
 requirements: [
 	graphite/10
 	selium/8
+	niterium/10
 ]
 }

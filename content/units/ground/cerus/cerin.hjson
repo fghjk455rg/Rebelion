@@ -56,10 +56,10 @@ bullet: {
 	trailLength: 8
 	trailWidth: 2
 	type: artilleryBulletType
-	splashDamage: 4
-	splashDamageRadius: 8
-	speed: 2
-	lifetime: 60
+	splashDamage: 3
+	splashDamageRadius: 16
+	speed: 2.2
+	lifetime: 80
 	frontColor: FFFFFFF
 	backColor: b7c8ff
 	hitEffect: blastExplosion

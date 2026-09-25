@@ -10,7 +10,7 @@ requirements: [
 	titanium/14
 ]
 lightRadius: 8
-powerProduction: 6
+powerProduction: 4
 baseEfficiency: 0
 minEfficiency: 0.25
 effectChance: 0.1

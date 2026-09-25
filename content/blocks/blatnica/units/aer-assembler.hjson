@@ -2,7 +2,7 @@ name: Air Assembler
 description: X
 type: UnitFactory
 category: units
-health: 70
+health: 60
 size: 2
 requirements: [
 	tungsten/1
@@ -10,7 +10,7 @@ requirements: [
 
 consumes: {
 	liquids: [
-		hydrogen/0.2
+		hydrogen/0.4
 	]
 }
 plans: [
@@ -18,9 +18,9 @@ plans: [
 	unit: flera
 	time: 1200
 	requirements: [
-		niterium/12
+		niterium/8
 //niterium - foam
-		selium/4
+		selium/6
 	]
 }
 ]

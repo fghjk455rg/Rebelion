@@ -20,13 +20,22 @@ consumes: {
 }
 constructTime: 1800
 upgrades: [
+	[grounder, grandar]
 	[silvest, silvestral]
 ]
 
 research: {
 parent: basis-assembler
+objectives: [
+{
+	type: OnSector
+	preset: airbase
+}
+]
 requirements: [
-	tungsten/1
+	graphite/20
+	niterium/8
+	selium/14
 ]
 }
 

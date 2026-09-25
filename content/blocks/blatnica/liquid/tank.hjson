@@ -5,8 +5,8 @@ category: liquid
 health: 10
 size: 1
 requirements: [
-	graphite/6
-	niterium/8
+	graphite/4
+	niterium/6
 ]
 
 liquidCapacity: 60
