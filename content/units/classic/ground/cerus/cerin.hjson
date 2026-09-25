@@ -41,9 +41,12 @@ shots: 4
 inaccuracy: 5
 rotate: false
 reload: 80
-shootSound: smoky_shot
-hitSound: smoky_hit
+shootSound: enemyfire
+shootSoundVolume: 2
+hitSound: orbhit
+despawnSound: orbhit
 targetAir: false
+damage: 4
 
 velocityRnd: 0.4
 
