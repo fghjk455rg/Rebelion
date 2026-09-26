@@ -115,6 +115,12 @@ hasLiquids: true
 
 research: {
 parent: bblast-drill
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
 requirements: [
 	tungsten/1
 ]

@@ -25,6 +25,12 @@ upgrades: [
 
 research: {
 parent: t1-attacktype-reconstructor
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
 requirements: [
 	tungsten/1
 ]

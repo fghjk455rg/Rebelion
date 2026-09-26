@@ -71,7 +71,7 @@ parent: cerus
 objectives: [
 {
 	type: OnSector
-	preset: darkcavern
+	preset: coastline
 }
 ]
 requirements: [

@@ -59,6 +59,12 @@ shoot: {
 
 research: {
 parent: bomber
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
 requirements: [
 	tungsten/1
 ]

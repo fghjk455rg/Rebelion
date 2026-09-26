@@ -17,6 +17,12 @@ laserColor2: cccccc
 
 research: {
 parent: transmitter
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
 requirements: [
 	tungsten/1
 ]

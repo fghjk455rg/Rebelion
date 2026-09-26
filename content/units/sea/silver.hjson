@@ -62,7 +62,7 @@ parent: silvest
 objectives: [
 {
 	type: OnSector
-	preset: acidland
+	preset: coastline
 }
 ]
 requirements: [
