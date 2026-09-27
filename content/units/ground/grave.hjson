@@ -25,8 +25,8 @@ ejectEffect: casing2
 layerOffset: -0.002
 targetAir: false
 recoil: 2
-
 bullet: {
+	hitSound: receiving_regular_damage
 
 	buildingDamageMultiplier: 2
 

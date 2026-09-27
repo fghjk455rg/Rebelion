@@ -44,12 +44,12 @@ reload: 80
 shootSound: enemyfire
 shootSoundVolume: 2
 hitSound: orbhit
-despawnSound: orbhit
 targetAir: false
 
 velocityRnd: 0.4
 
 bullet: {
+	despawnSound: orbhit
 	width: 8
 	height: 8
 	trailColor: b7c8ff

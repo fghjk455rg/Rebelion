@@ -32,7 +32,6 @@ inaccuracy: 4
 rotate: true
 reload: 70
 shootSound: smoky_shot
-hitSound: smoky_hit
 ejectEffect: casing1
 targetAir: false
 recoil: 1
@@ -40,6 +39,7 @@ recoil: 1
 velocityRnd: 0.4
 
 bullet: {
+	hitSound: smoky_hit
 	hitEffect: blastExplosion
 	width: 8
 	height: 8

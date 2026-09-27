@@ -61,6 +61,7 @@ buildingDamageMultiplier: 2
 bullet: {
 
 	buildingDamageMultiplier: 2
+	despawnSound: ricochet_hit
 
 	width: 10
 	height: 6

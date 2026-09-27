@@ -25,11 +25,11 @@ shots: 2
 inaccuracy: 3
 rotate: false
 reload: 80
-shootSound: smoky_shot
-hitSound: smoky_hit
 ejectEffect: casing2
 layerOffset: -0.002
+shootSound: smoky_shot
 bullet: {
+	hitSound: smoky_hit
 	hitEffect: blastExplosion
 	recoil: 0.1
 	width: 8

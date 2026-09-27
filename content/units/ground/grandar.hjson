@@ -23,12 +23,12 @@ inaccuracy: 3
 rotate: false
 reload: 10
 shootSound: enemytankgun
-hitSound: smoky_hit
 ejectEffect: casing2
 layerOffset: -0.002
 shootStatus: slow
 shootStatusDuration: 40
 bullet: {
+	hitSound: smoky_hit
 	hitEffect: blastExplosion
 	recoil: 0.1
 	trailColor: ffa665

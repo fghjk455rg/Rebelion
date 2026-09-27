@@ -33,6 +33,7 @@ recoil: 1
 buildingDamageMultiplier: 2
 
 bullet: {
+	hitSound: receiving_regular_damage
 
 	buildingDamageMultiplier: 2
 
