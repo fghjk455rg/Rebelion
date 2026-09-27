@@ -1,13 +1,13 @@
-sector: 66
+sector: 25
 planet: ens-mod-blatnica
-localizedName: Airport
-difficulty: 3
+localizedName: Water Containing-
+difficulty: 2
 research:{
-parent: darkcavern
+parent: airbase
 objectives: [
 {
 	type: sectorComplete
-	preset: darkcavern
+	preset: airbase
 }]
 }
 alwaysUnlocked: false

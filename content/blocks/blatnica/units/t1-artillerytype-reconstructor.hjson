@@ -25,8 +25,16 @@ upgrades: [
 
 research: {
 parent: t1-tanktype-reconstructor
+objectives: [
+{
+	type: OnSector
+	preset: watercontaining
+}
+]
 requirements: [
-	tungsten/1
+	graphite/20
+	lead/12
+	selium/20
 ]
 }
 

@@ -71,10 +71,12 @@ parent: cerus
 objectives: [
 {
 	type: OnSector
-	preset: coastline
+	preset: watercontaining
 }
 ]
 requirements: [
-	tungsten/1
+	graphite/12
+	titanium/8
+	selium/22
 ]
 }

@@ -70,10 +70,10 @@ ammoTypes: {
 	type: artilleryBulletType
 	with: 8
 	height: 16
-	lifetime: 80
-	speed: 6
+	lifetime: 100
+	speed: 4
 	damage: 6
-	splashDamage: 20
+	splashDamage: 10
 	splashDamageRadius: 50
 	shootSound: smoky_shot
 	hitSound: smoky_hit
@@ -123,14 +123,14 @@ ammoTypes: {
 	reloadMultiplier: 0.6
 	}
 }
-reload: 80
+reload: 160
 recoil: 3
 targetAir: false
 shootSound: explosion
 recoilTime: 40
 rotateSpeed: 2
 coolantMultiplier: 2
-range: 540
+range: 480
 consumes: {
 	power: 1
 	liquids: [
