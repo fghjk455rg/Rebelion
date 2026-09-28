@@ -55,7 +55,7 @@ bullet: {
 ]
 
 research: {
-parent: basis-assembler
+parent: t1-tanktype-reconstructor
 objectives: [
 {
 	type: OnSector
