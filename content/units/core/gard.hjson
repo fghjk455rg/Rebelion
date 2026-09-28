@@ -2,9 +2,9 @@ name: Gard
 description: X
 type: legs
 health: 40
-speed: 1.4
+speed: 1.2
 drag: 0.2
-rotateSpeed: 10
+rotateSpeed: 8
 hitSize: 4
 lightRadius: 80
 lightColor: ffffff55
@@ -23,7 +23,7 @@ mineTier: 5
 mineSpeed: 5
 mineHardnessScaling: false
 
-legCount: 4
+legCount: 6
 legLength: 7
 lockLegBase: true
 legContinuousMove: true
@@ -36,7 +36,7 @@ legForwardScl: 1.2
 legGroupSize: 3
 rippleScale: 0.2
 
-legMoveSpace: 1.2
+legMoveSpace: 1.4
 shadowElevation: 0.2
 hovering: true
 
@@ -48,27 +48,27 @@ x: 1
 y: 0
 inaccuracy: 3
 rotate: false
-reload: 30
-shootSound: smoky_shot
-hitSound: smoky_hit
+reload: 15
+shootSound: tankfire
 ejectEffect: casing1
 targetAir: false
 recoil: 2
 
 bullet: {
+	hitSound: receiving_regular_damage
 
 	buildingDamageMultiplier: 0.5
 
-	recoil: 0.1
-	width: 8
-	height: 8
+	recoil: 0.05
+	width: 6
+	height: 12
 	trailColor: 515151
 	trailLength: 8
-	trailWidth: 2
+	trailWidth: 1
 	type: basicBulletType
-	damage: 4
-	speed: 3
-	lifetime: 20
+	damage: 1
+	speed: 3.6
+	lifetime: 16
 	frontColor: FFFFFFF
 	backColor: 515151
 }

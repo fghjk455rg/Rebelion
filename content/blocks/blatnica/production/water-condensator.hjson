@@ -1,0 +1,67 @@
+name: Moisture Condensator
+description: X
+type: AttributeCrafter
+category: production
+health: 10
+size: 2
+requirements: [
+	tungsten/1
+]
+
+craftTime: 360
+consumes: {
+	items: [
+		lead/1
+	]
+}
+outputLiquid: water/0.05
+attribute: sand
+displayEfficiency: true
+baseEfficiency: 0
+placeableLiquid: true
+ambientSound: electricHum
+
+research: {
+parent: atmosphere-condensator
+requirements: [
+	tungsten/1
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+}
+{
+	type: drawLiquidOutputs
+}
+{
+	type: drawParticles
+	color: cfce66
+	alpha: 0.6
+	particleSize: 3
+	particles: 10
+	particleRad: 9
+	particleLife: 140
+}
+{
+	type: drawParticles
+	color: cfce66
+	alpha: 0.6
+	particleSize: 1
+	particles: 20
+	particleRad: 10
+	particleLife: 120
+}
+{
+	type: drawParticles
+	color: cfce66
+	alpha: 0.6
+	particleSize: 1
+	particles: 10
+	particleRad: 10
+	particleLife: 120
+}
+]

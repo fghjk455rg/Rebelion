@@ -49,6 +49,7 @@ targetAir: false
 velocityRnd: 0.4
 
 bullet: {
+	hitSound: orbhit
 	despawnSound: orbhit
 	width: 8
 	height: 8

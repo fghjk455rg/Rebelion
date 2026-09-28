@@ -6,7 +6,7 @@ accesible: true
     
 hasAtmosphere: true
     
-iconColor: edf3a9
+iconColor: b7c8ff
 
 allowWavesSimulation: false
 
@@ -18,7 +18,7 @@ allowLaunchLoadout: false
 
 updateLighting: false
 
-    orbitRadius: 20
+    orbitRadius: 40
 
     prebuildBase: true
  
@@ -26,35 +26,35 @@ updateLighting: false
 
     atmosphereRadOut: 0
 
-    atmosphereColor: edf3a9
+    atmosphereColor: b7c8ff
 
     alwaysUnlocked: true
 
-    defaultCore: core-colony
+    defaultCore: core-colony-snev
 
     clearSectorOnLose: true
 
     visible: true
 
-    startSector: 41
+    startSector: 0
 
     sectorSize: 2
 
-    sectorSeed: 1
+    sectorSeed: 2
 
-    landCloudColor: edf3a9
+    landCloudColor: b7c8ff
 
    mesh: {
 
       type: NoiseMesh
 
-      planet: blatniza
+      planet: sneverus
 
-      seed: 1
+      seed: 2
 
-      color1: 3c3837
+      color1: ffffff
 
-      color2: cfce66
+      color2: b7c8ff
 
       divisions: 4
 
@@ -103,6 +103,7 @@ bloom: false
         dormant-cyst
 
        ]
+
 hidden: false
 
 tidalLock: true

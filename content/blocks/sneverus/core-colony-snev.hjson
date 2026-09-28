@@ -1,0 +1,28 @@
+name: Core: "Colony"
+description: X
+type: CoreBlock
+category: effect
+health: 240
+size: 3
+requirements: [
+	graphite/200
+	lead/160
+	selium/80
+]
+lightRadius: 40
+fogRadius: 20
+
+isFirstTier: true
+unitType: gard
+itemCapacity: 800
+unitCapModifier: 12
+
+research: {
+	root: true
+	name: Sneverus
+	requiresUnlock: false
+	planet: sneverus
+}
+alwaysUnlocked: true
+
+squareSprite: false

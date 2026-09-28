@@ -18,6 +18,12 @@ unitCapModifier: 4
 
 research: {
 parent: core-colony
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
 requirements: [
 	graphite/180
 	lead/140

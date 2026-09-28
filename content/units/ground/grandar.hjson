@@ -6,7 +6,7 @@ speed: 1
 drag: 0.2
 accel: 0.1
 rotateSpeed: 4
-hitSize: 4
+hitSize: 5
 omniMovement: true
 lightRadius: 80
 lightColor: ffffff55
@@ -28,6 +28,7 @@ layerOffset: -0.002
 shootStatus: slow
 shootStatusDuration: 40
 bullet: {
+	despawnSound: smoky_hit
 	hitSound: smoky_hit
 	hitEffect: blastExplosion
 	recoil: 0.1

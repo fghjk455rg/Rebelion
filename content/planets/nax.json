@@ -1,0 +1,59 @@
+    generator: slanetGenerator
+
+    parent: alveon
+    
+accesible: false
+    
+hasAtmosphere: true
+    
+iconColor: ffffff
+
+updateLighting: false
+
+    orbitRadius: 100
+ 
+    atmosphereRadIn: 0
+
+    atmosphereRadOut: 0
+
+    atmosphereColor: ffffff
+
+    alwaysUnlocked: false
+
+    visible: true
+
+    sectorSize: 2
+
+    sectorSeed: 1
+
+   mesh: {
+
+      type: NoiseMesh
+
+      planet: nax
+
+      seed: 2
+
+      color1: ffffff
+
+      color2: bbccff
+
+      divisions: 4
+
+      radius: 2
+
+      octaves: 8
+
+      persistence: 0.8
+
+      scale: 4
+
+      mag: 1
+
+bloom: true
+
+    }
+
+hidden: false
+
+tidalLock: true

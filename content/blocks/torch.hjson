@@ -1,0 +1,111 @@
+name: Fakel
+description: X
+//из какого-то там мода. я ему звезду влепил. идея крутая, да и сам мод не так плох.
+type: ConsumeGenerator
+category: power
+health: 10
+size: 2
+requirements: [
+	tungsten/1
+]
+lightRadius: 8
+
+powerProduction: 2
+baseEfficiency: 0
+minEfficiency: 0.25
+effectChance: 0.1
+ambientSound: hum
+ambientSoundVolume: 0.06
+consumes: {
+	liquids: [
+		biomass/0.1
+	]
+}
+hasLiquids: true
+generateEffect: [
+{
+	particles: 1
+	length: 50
+	lifetime: 320
+	cone: 12
+	baseRotation: 32
+	sizeFrom: 1
+	sizeTo: 5
+	colorFrom: ca4744ff
+	colorTo: 31313100
+	sizeInterp: pow2Out
+	interp: pow2Out
+}
+{
+	particles: 1
+	length: 50
+	lifetime: 320
+	cone: 12
+	baseRotation: 32
+	sizeFrom: 1
+	sizeTo: 5
+	colorFrom: 666666ff
+	colorTo: 31313100
+	sizeInterp: pow2Out
+	interp: pow2Out
+}
+{
+	particles: 2
+	length: 50
+	lifetime: 400
+	cone: 12
+	baseRotation: 32
+	sizeFrom: 2
+	sizeTo: 7
+	colorFrom: 313131ff
+	colorTo: 31313100
+	sizeInterp: pow2Out
+	interp: pow2Out
+}
+]
+
+research: {
+parent: nitrogen-generator
+objectives: [
+{
+	type: OnSector
+	preset: coastline
+}
+]
+requirements: [
+	tungsten/1
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawDefault
+}
+{
+	type: drawParticles
+	color: ffae7c
+	alpha: 0.6
+	particleSize: 1
+	particles: 30
+	particleRad: 6
+	particleLife: 60
+}
+{
+	type: drawParticles
+	color: ffae7c
+	alpha: 0.6
+	particleSize: 2
+	particles: 20
+	particleRad: -6
+	particleLife: 60
+}
+{
+	type: DrawGlowRegion
+	suffix: -glow
+	alpha: 0.9
+	glowScale: 10
+	color: ffaa6655
+}
+]

@@ -1,0 +1,40 @@
+mesh: {
+    type: SunMesh
+    planet: alveon
+	divisions: 5.5
+	octaves: 3
+	persistence: 0.8
+	scl: 1
+	pow: 1
+	mag: 0.5
+	colorScale: 1.15
+	    colors: [
+FFD700
+FFBE0F
+FFA61E
+FF8D2D
+FF753C
+FF5C4B
+FF445A
+FF2B69
+FF1378
+F10078
+D5006E
+B90065
+9D005B
+810052
+650048
+    ]
+}
+lightColor: c9a965
+bloom: true
+accessible: false
+parent: sun
+radius: 7.5
+iconColor: ffa133ff
+drawOrbit: false
+orbitRadius: 12000
+tidalLock: true
+orbitSpacing: 23
+solarSystem: alveon
+icon: commandRally

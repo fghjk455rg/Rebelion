@@ -1,48 +1,53 @@
-name: Grounder
+name: Tanker WIP SPRITES FROM EXOGEN
 description: X
-type: mech
-health: 80
+type: tank
+health: 200
 speed: 0.8
 drag: 0.2
 accel: 0.1
-rotateSpeed: 3
-hitSize: 5
-omniMovement: true
+rotateSpeed: 2.5
+hitSize: 8
 lightRadius: 80
 lightColor: ffffff55
 outlineColor: 1b1b1e
+"omniMovement": false,
+
+squareShape: true
+treadPullOffset: 8
+treadRects: [
+{
+x: 7
+y: -26
+width: 14
+height: 51
+}
+]
 
 weapons: [
 {
-name: grounder-weapon
-mirror: true
-x: 4.2
-y: 1.2
-shoot: {
-shotDelay: 10
-shots: 2
-}
-inaccuracy: 3
-rotate: false
-reload: 80
+name: tanker-weapon
+mirror: false
+x: 0
+y: 9
+inaccuracy: 2
+reload: 180
+rotate: true
+rotateSpeed: 2
 ejectEffect: casing2
-layerOffset: -0.002
 shootSound: smoky_shot
 bullet: {
 	hitSound: smoky_hit
-	despawnSound: smoky_hit
 	hitEffect: blastExplosion
-	recoil: 0.1
-	width: 8
-	height: 8
+	width: 10
+	height: 10
 	trailColor: 515151
-	trailLength: 6
-	trailWidth: 2
+	trailLength: 8
+	trailWidth: 3
 	type: basicBulletType
-	splashDamage: 3
-	splashDamageRadius: 8
+	splashDamage: 20
+	splashDamageRadius: 16
 	lifetime: 30
-	speed: 3.5
+	speed: 5
 	frontColor: FFFFFFF
 	backColor: 515151
 }
@@ -58,7 +63,6 @@ objectives: [
 }
 ]
 requirements: [
-	graphite/10
-	selium/8
+	tungsten/1
 ]
 }
